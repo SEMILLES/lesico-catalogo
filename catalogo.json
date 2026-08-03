@@ -1,12 +1,12 @@
 {
   "metadatos": {
-    "version_exportador": "sesion-4",
-    "fecha_generacion": "2026-08-03T10:03:56",
+    "version_exportador": "sesion-5-excel-a-db",
+    "fecha_generacion": "2026-08-03T12:54:16",
     "archivo_origen": "LeSiCo.db",
     "conceptos_exportados": 358,
     "alternativas_exportadas": 723,
     "ocurrencias_exportadas": 1369,
-    "videos_de_alternativas": 1
+    "videos_de_alternativas": 239
   },
   "conceptos": [
     {
@@ -479,7 +479,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/IGlKR6ClS_Q",
           "ocurrencias": [
             {
               "id": "1472-ABUSO-SEXUAL",
@@ -530,7 +530,7 @@
           "registro": "---",
           "matiz": "Tiene cierto tabú.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/YpXhp1tE4hg",
           "ocurrencias": [
             {
               "id": "9896-ABUSO SEXUAL LSC",
@@ -581,7 +581,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/TfOilQPIdFw",
           "ocurrencias": [
             {
               "id": "10847-ABUSO-SEXUAL",
@@ -632,7 +632,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/9H9uS5f1Lkw",
           "ocurrencias": [
             {
               "id": "10848-ABUSO-SEXUAL",
@@ -3253,7 +3253,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Iu7ix8hRe0g",
           "ocurrencias": [
             {
               "id": "2713-AMARILLO",
@@ -3304,7 +3304,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/4kwifkq13qQ",
           "ocurrencias": [
             {
               "id": "7684-AMARILLO",
@@ -3383,7 +3383,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/T7t4PnZMwrQ",
           "ocurrencias": [
             {
               "id": "8062-AMARILLO",
@@ -3490,7 +3490,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/QcFakA6Wwg4",
           "ocurrencias": [
             {
               "id": "4707-AMARILLO",
@@ -3541,7 +3541,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/EsMqhg1DsM4",
           "ocurrencias": [
             {
               "id": "10935-AMARILLO",
@@ -3592,7 +3592,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/YebyWApIUZs",
           "ocurrencias": [
             {
               "id": "10936-AMARILLO",
@@ -3643,7 +3643,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/PADAT93YFzA",
           "ocurrencias": [
             {
               "id": "10955-AMARILLO",
@@ -4003,7 +4003,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Cswz51fEAF4",
           "ocurrencias": [
             {
               "id": "3270-APOYAR",
@@ -4166,7 +4166,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ilJX_s4V71A",
           "ocurrencias": [
             {
               "id": "10921-APOYAR",
@@ -4224,7 +4224,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/xmTToBdJg_c",
           "ocurrencias": [
             {
               "id": "4716-APRENDER",
@@ -4478,7 +4478,7 @@
           "registro": "---",
           "matiz": "Tienen la acepción de abusar o aprovechar y es el rasgo no manual el que lo desambigüa.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/DWcKldWQzHo",
           "ocurrencias": [
             {
               "id": "3272-APROVECHAR",
@@ -4620,7 +4620,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/oQBSn9-pziY",
           "ocurrencias": [
             {
               "id": "3273-AQUI-ACÁ",
@@ -4950,7 +4950,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/BMTgHaVgskA",
           "ocurrencias": [
             {
               "id": "7688-ARCOIRIS",
@@ -5029,7 +5029,7 @@
           "registro": "Discurso escolar",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/0vvKRNCbSTM",
           "ocurrencias": [
             {
               "id": "8087-ARCOIRIS",
@@ -6000,7 +6000,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/e-c1KQ_YO2w",
           "ocurrencias": [
             {
               "id": "1552-ARTE",
@@ -6051,7 +6051,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/AJ-Z2OI6vZA",
           "ocurrencias": [
             {
               "id": "5587-ARTE",
@@ -6158,7 +6158,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ZzQZa1lCDRw",
           "ocurrencias": [
             {
               "id": "10517-ARTE",
@@ -6209,7 +6209,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/qGqJ7KaAFK8",
           "ocurrencias": [
             {
               "id": "273-ARTE",
@@ -8818,7 +8818,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/f4VECQ64RjE",
           "ocurrencias": [
             {
               "id": "4727-AZUL",
@@ -9037,7 +9037,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/kYA5z7usKag",
           "ocurrencias": [
             {
               "id": "10928-AZUL",
@@ -13698,7 +13698,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Wkc20hzWr5w",
           "ocurrencias": [
             {
               "id": "4743-BLANCO",
@@ -15391,7 +15391,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/aG6L0IfwoO8",
           "ocurrencias": [
             {
               "id": "8183-CAFÉ",
@@ -16320,7 +16320,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/tFa0-f86dzA",
           "ocurrencias": [
             {
               "id": "1663-CAMPEÓN",
@@ -16399,7 +16399,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/lCUzAd-eQ04",
           "ocurrencias": [
             {
               "id": "10804-CAMPEÓN",
@@ -16457,7 +16457,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/T1olPDhOi-A",
           "ocurrencias": [
             {
               "id": "1668-CANCHA",
@@ -16566,7 +16566,7 @@
           "registro": "---",
           "matiz": "En la noche, puede decirse solo \"COMER\"",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/3tSurhvQQQw",
           "ocurrencias": [
             {
               "id": "2793-COMIDA",
@@ -16617,7 +16617,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/wwmJlfzWSWs",
           "ocurrencias": [
             {
               "id": "10831-CENA",
@@ -16696,7 +16696,7 @@
           "registro": "---",
           "matiz": "En la noche, puede decirse solo \"COMER\"",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/aiXKFfxcvD8",
           "ocurrencias": [
             {
               "id": "8270-COMIDA",
@@ -16803,7 +16803,7 @@
           "registro": "---",
           "matiz": "En la noche, puede decirse solo \"COMER\"",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/_Llp8lDPNp0",
           "ocurrencias": [
             {
               "id": "9392-COMIDA 2",
@@ -16912,7 +16912,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "Pareciera se un calco.",
-          "video_url": "",
+          "video_url": "https://youtu.be/7zdZxRbEs4o",
           "ocurrencias": [
             {
               "id": "1706-CENTRO-COMERCIAL",
@@ -16963,7 +16963,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/7-UlWlytxqM",
           "ocurrencias": [
             {
               "id": "10843-CENTRO-COMERCIAL",
@@ -17042,7 +17042,7 @@
           "registro": "-",
           "matiz": "-",
           "espanol": "-",
-          "video_url": "",
+          "video_url": "https://youtu.be/1jUCAZsX86Q",
           "ocurrencias": [
             {
               "id": "10898-CENTRO-COMERCIAL",
@@ -17121,7 +17121,7 @@
           "registro": "-",
           "matiz": "-",
           "espanol": "-",
-          "video_url": "",
+          "video_url": "https://youtu.be/7-UlWlytxqM",
           "ocurrencias": [
             {
               "id": "10901-CENTRO-COMERCIAL",
@@ -17179,7 +17179,7 @@
           "registro": "---",
           "matiz": "Puede usarse como el centro de cualquier ciudad, no solo como el de Bogotá",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/hV0sIT0ErVU",
           "ocurrencias": [
             {
               "id": "1707-CENTRO-DE-LA-CIUDAD",
@@ -17237,7 +17237,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/jK_Jt1ocRhg",
           "ocurrencias": [
             {
               "id": "3389-CEPILLO DE DIENTES",
@@ -17344,7 +17344,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/fBCh_yCYASM",
           "ocurrencias": [
             {
               "id": "10950-CEPILLARSE-LOS-DIENTES/CEPILLO-DENTAL",
@@ -17402,7 +17402,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Z9gTVMCXOmQ",
           "ocurrencias": [
             {
               "id": "4785-CERCA",
@@ -17509,7 +17509,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/aPcD1nBJ_EU",
           "ocurrencias": [
             {
               "id": "1710-CERCA",
@@ -17560,7 +17560,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/3l8L0jN-AL4",
           "ocurrencias": [
             {
               "id": "8232-CERCA",
@@ -17618,7 +17618,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/AroyyskZ_Vk",
           "ocurrencias": [
             {
               "id": "10906-CERCA-TEMPORAL",
@@ -17676,7 +17676,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/gcAWRiTs078",
           "ocurrencias": [
             {
               "id": "8231-CERCA",
@@ -17727,7 +17727,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/yh-3k42ijQM",
           "ocurrencias": [
             {
               "id": "10956-CERCA-VALLA",
@@ -17785,7 +17785,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/X2PIpLK5ExE",
           "ocurrencias": [
             {
               "id": "8234-CERDO",
@@ -17920,7 +17920,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ipGCEQVL2kA",
           "ocurrencias": [
             {
               "id": "314-CERDO",
@@ -17999,7 +17999,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ncZPfDcB1QI",
           "ocurrencias": [
             {
               "id": "7728-CERDO",
@@ -18050,7 +18050,7 @@
           "registro": "---",
           "matiz": "Designa también a el alimento tradicional preparado con el cerdo, la lechona",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/u0JP0yWjswU",
           "ocurrencias": [
             {
               "id": "10951-CERDO",
@@ -18108,7 +18108,7 @@
           "registro": "---",
           "matiz": "Se usa para referirse a la acción con entidades físicas.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/gTREobKF8G0",
           "ocurrencias": [
             {
               "id": "1712-CERRAR",
@@ -18159,7 +18159,7 @@
           "registro": "---",
           "matiz": "Se usa para referirse a la acción con entidades físicas, así como de cosas no físicas como \"las inscripciones\"",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/scxl4YKzsp8",
           "ocurrencias": [
             {
               "id": "8237-CERRAR",
@@ -18210,7 +18210,7 @@
           "registro": "---",
           "matiz": "Se usa para referirse a la acción con entidades físicas, así como de cosas no físicas como \"las inscripciones\"",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/WhYZoEMMi6I",
           "ocurrencias": [
             {
               "id": "10952-CERRAR",
@@ -18268,7 +18268,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/PVcAyS6CnU8",
           "ocurrencias": [
             {
               "id": "4786-CERVEZA",
@@ -18431,7 +18431,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/dIuUkM3ioLk",
           "ocurrencias": [
             {
               "id": "10854-CERVEZA",
@@ -18489,7 +18489,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Lo4scyqZntE",
           "ocurrencias": [
             {
               "id": "3392-CHAMPU",
@@ -18540,7 +18540,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/FiS0jh7TBg0",
           "ocurrencias": [
             {
               "id": "1714-CHAMPÚ",
@@ -18591,7 +18591,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/9oveoS0b7z8",
           "ocurrencias": [
             {
               "id": "10855-CHAMPÚ",
@@ -18642,7 +18642,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/WEQcrPGizVk",
           "ocurrencias": [
             {
               "id": "10856-CHAMPÚ",
@@ -18693,7 +18693,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/63Y3pozndoo",
           "ocurrencias": [
             {
               "id": "10902-CHAMPÚ",
@@ -18751,7 +18751,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/UiuLf6Fsha0",
           "ocurrencias": [
             {
               "id": "1715-CHAQUETA",
@@ -18830,7 +18830,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/EKtdP7dznOw",
           "ocurrencias": [
             {
               "id": "8241-CHAQUETA",
@@ -18888,7 +18888,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/b7z-LA3LOww",
           "ocurrencias": [
             {
               "id": "1716-CHEF",
@@ -18939,7 +18939,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/HyZsY76SwU0",
           "ocurrencias": [
             {
               "id": "9882-CHEF",
@@ -18990,7 +18990,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/z53ql5ZBZVU",
           "ocurrencias": [
             {
               "id": "10957-CHEF",
@@ -19157,7 +19157,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/i7WlOaKnX3s",
           "ocurrencias": [
             {
               "id": "10794-CHICHA",
@@ -19208,7 +19208,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/1n-HAJxGBuo",
           "ocurrencias": [
             {
               "id": "10958-CHICHA",
@@ -19266,7 +19266,7 @@
           "registro": "---",
           "matiz": "Puede ser el verbo, el adjetivo o el sustantivo",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/1fkWTjPFbUE",
           "ocurrencias": [
             {
               "id": "1720-CHISME",
@@ -19317,7 +19317,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/QpHB3PmfnMU",
           "ocurrencias": [
             {
               "id": "10959-CHISME",
@@ -19375,7 +19375,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/E2kzuEPAFeg",
           "ocurrencias": [
             {
               "id": "3395-CHISTOSO",
@@ -19482,7 +19482,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/6DxXLYKpBJc",
           "ocurrencias": [
             {
               "id": "10923-CHISTE",
@@ -19814,7 +19814,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/TrC-_uc62pA",
           "ocurrencias": [
             {
               "id": "3416-COLOMBIA",
@@ -20033,7 +20033,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/SqWTV9QNnTQ",
           "ocurrencias": [
             {
               "id": "10795-COLOMBIA",
@@ -20091,7 +20091,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/KJuEXGa-mWY",
           "ocurrencias": [
             {
               "id": "4802-COLORES",
@@ -20282,7 +20282,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/_j2-stZ5P3w",
           "ocurrencias": [
             {
               "id": "10948-COLOR",
@@ -20398,7 +20398,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/FwcE2-nX6P8",
           "ocurrencias": [
             {
               "id": "3004-NEGRO",
@@ -20449,7 +20449,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/fnVIRAY0KZY",
           "ocurrencias": [
             {
               "id": "7825-NEGRO_",
@@ -20528,7 +20528,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Wf3coM8u_c0",
           "ocurrencias": [
             {
               "id": "10932-NEGRO-COLOR",
@@ -20579,7 +20579,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/2vqMJmtAtlA",
           "ocurrencias": [
             {
               "id": "8736-NEGRO",
@@ -20686,7 +20686,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/zz-PQrO4ywc",
           "ocurrencias": [
             {
               "id": "10933-NEGRO-COLOR",
@@ -20802,7 +20802,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/o6gKKWDKtdA",
           "ocurrencias": [
             {
               "id": "3419-COMEDOR",
@@ -20881,7 +20881,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/eozCfjWNgBA",
           "ocurrencias": [
             {
               "id": "4803-COMEDOR",
@@ -20939,7 +20939,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/vPDuf2qA-Hg",
           "ocurrencias": [
             {
               "id": "9487-COMEDOR",
@@ -20990,7 +20990,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/pqV9stfYXKc",
           "ocurrencias": [
             {
               "id": "10910-COMEDOR-MESA",
@@ -21048,7 +21048,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/uzyUHtUctQE",
           "ocurrencias": [
             {
               "id": "3420-COMER",
@@ -21379,7 +21379,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/0f0lD0HYTok",
           "ocurrencias": [
             {
               "id": "25-COMER",
@@ -24350,7 +24350,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ZTi43QRCL74",
           "ocurrencias": [
             {
               "id": "4192-COPA 2",
@@ -24401,7 +24401,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/tOlv4WC2S7U",
           "ocurrencias": [
             {
               "id": "10961-COPA-AGUARDIENTE",
@@ -24459,7 +24459,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/LOuk0NLJs1U",
           "ocurrencias": [
             {
               "id": "4191-COPA 1",
@@ -24510,7 +24510,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/HumdPuQNOwI",
           "ocurrencias": [
             {
               "id": "1777-COPA",
@@ -24561,7 +24561,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/QxkZNQOP4Hg",
           "ocurrencias": [
             {
               "id": "10833-COPA-VINO",
@@ -26134,7 +26134,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Gn-WzO_YU2k",
           "ocurrencias": [
             {
               "id": "4206-CUCHILLO (COCINA)",
@@ -26185,7 +26185,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/s6kVotR178A",
           "ocurrencias": [
             {
               "id": "7741-CUCHILLO",
@@ -26243,7 +26243,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/qCiH_Bn-dkw",
           "ocurrencias": [
             {
               "id": "4207-CUCHILLO (COMEDOR)",
@@ -26329,7 +26329,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/XmS9vXWHX_8",
           "ocurrencias": [
             {
               "id": "1840-DESCUBRIR",
@@ -26380,7 +26380,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/K3B1KnUpt2U",
           "ocurrencias": [
             {
               "id": "10890-DESCUBRIR",
@@ -26438,7 +26438,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/oLLm8oDcu28",
           "ocurrencias": [
             {
               "id": "43-DESOCUPADO",
@@ -26489,7 +26489,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/zyy8LEhh2XM",
           "ocurrencias": [
             {
               "id": "1843-DESOCUPADO",
@@ -26540,7 +26540,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/2nTDiyMn1Y8",
           "ocurrencias": [
             {
               "id": "10907-DESOCUPADO-ABURRIDO",
@@ -26591,7 +26591,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/p2u8dIwQ9Yc",
           "ocurrencias": [
             {
               "id": "10908-DESOCUPADO-ABURRIDO",
@@ -26649,7 +26649,7 @@
           "registro": "---",
           "matiz": "La amplitud del movimiento puede variar por prosodia.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/xEQyYi3RaJs",
           "ocurrencias": [
             {
               "id": "8343-DESPUÉS",
@@ -26728,7 +26728,7 @@
           "registro": "---",
           "matiz": "La amplitud del movimiento puede variar por prosodia.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ylls33iuw7s",
           "ocurrencias": [
             {
               "id": "5319-DESPUÉS",
@@ -26779,7 +26779,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/fDsJ4l9Pjgw",
           "ocurrencias": [
             {
               "id": "10909-DESPUÉS",
@@ -26837,7 +26837,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/i8Use-Zw1Eg",
           "ocurrencias": [
             {
               "id": "8876-PLATA",
@@ -26916,7 +26916,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Qg-HnYCtlcQ",
           "ocurrencias": [
             {
               "id": "10881-PLATA",
@@ -26967,7 +26967,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/wrIPGX6UZ4Q",
           "ocurrencias": [
             {
               "id": "10882-PLATA",
@@ -27025,7 +27025,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/z5HJykG5fAo",
           "ocurrencias": [
             {
               "id": "1889-DULCE (2)",
@@ -27104,7 +27104,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/vyQBjcxXfjE",
           "ocurrencias": [
             {
               "id": "10817-CARAMELO-DULCE",
@@ -27155,7 +27155,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Z6qu0QrQo9I",
           "ocurrencias": [
             {
               "id": "4864-DULCE",
@@ -27213,7 +27213,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/nZcVVIjMtyQ",
           "ocurrencias": [
             {
               "id": "3501-DURAZNO",
@@ -27320,7 +27320,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Xm0rJzMN5-o",
           "ocurrencias": [
             {
               "id": "7752-DURAZNO",
@@ -27371,7 +27371,7 @@
           "registro": "Discurso escolar",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/X88Up8E37Tc",
           "ocurrencias": [
             {
               "id": "10849-DURAZNO",
@@ -27429,7 +27429,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ed0nRiYRf8k",
           "ocurrencias": [
             {
               "id": "3506-ECUADOR",
@@ -27536,7 +27536,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ctCARg6_Y6Y",
           "ocurrencias": [
             {
               "id": "10962-ECUADOR",
@@ -27594,7 +27594,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/nGbB_Yx6vaM",
           "ocurrencias": [
             {
               "id": "4870-EMBARAZO",
@@ -27736,7 +27736,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/k1G3TCFGHaU",
           "ocurrencias": [
             {
               "id": "1903-EMBETUNAR",
@@ -27794,7 +27794,7 @@
           "registro": "---",
           "matiz": "Depende del contexto se refiere también a ANSIOSO - EMOCIONADO",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/x5vUdM33xqg",
           "ocurrencias": [
             {
               "id": "3511-EMOCIONADO",
@@ -27845,7 +27845,7 @@
           "registro": "---",
           "matiz": "Depende del contexto se refiere también a ANSIOSO - EMOCIONADO",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/dtI5L8CRxwE",
           "ocurrencias": [
             {
               "id": "1905-EMOCIONADO (2)",
@@ -27896,7 +27896,7 @@
           "registro": "---",
           "matiz": "Depende del contexto se refiere también a ANSIOSO - EMOCIONADO",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/6LwUoTOl6XE",
           "ocurrencias": [
             {
               "id": "1904-EMOCIONADO (1)",
@@ -27947,7 +27947,7 @@
           "registro": "-",
           "matiz": "-",
           "espanol": "-",
-          "video_url": "",
+          "video_url": "https://youtu.be/6LwUoTOl6XE",
           "ocurrencias": [
             {
               "id": "10972-EMOCIONADO",
@@ -27998,7 +27998,7 @@
           "registro": "---",
           "matiz": "Depende del contexto se refiere también a ANSIOSO - EMOCIONADO",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/QDla1ji8IAw",
           "ocurrencias": [
             {
               "id": "1906-EMOCIONADO (3)",
@@ -28049,7 +28049,7 @@
           "registro": "---",
           "matiz": "Depende del contexto se refiere también a ANSIOSO - EMOCIONADO",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/4iP-jR97JiM",
           "ocurrencias": [
             {
               "id": "8376-EMOCIONADO",
@@ -28107,7 +28107,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/THU8WH8Bajg",
           "ocurrencias": [
             {
               "id": "4872-EMPANADA",
@@ -28242,7 +28242,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/xtokd0G_EmI",
           "ocurrencias": [
             {
               "id": "8377-EMPANADA",
@@ -28300,7 +28300,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/bbJgk1usmVw",
           "ocurrencias": [
             {
               "id": "3515-ENEMIGO",
@@ -28379,7 +28379,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/POnVhJGf8MU",
           "ocurrencias": [
             {
               "id": "10920-ENEMIGO",
@@ -28495,7 +28495,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/X8Y5WQXRovk",
           "ocurrencias": [
             {
               "id": "1919-ENFURECER/FURIOSO",
@@ -28546,7 +28546,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/_wVS08XDifE",
           "ocurrencias": [
             {
               "id": "10827-ENFURECERSE",
@@ -28597,7 +28597,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/7asK62kJxdI",
           "ocurrencias": [
             {
               "id": "10828-ENFURECERSE",
@@ -28648,7 +28648,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/eJ5BCH5zaIE",
           "ocurrencias": [
             {
               "id": "10829-ENFURECERSE",
@@ -28706,7 +28706,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/GnbBdCClXnU",
           "ocurrencias": [
             {
               "id": "3519-ENGAÑAR",
@@ -28757,7 +28757,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/S3GYwN2uGAg",
           "ocurrencias": [
             {
               "id": "1920-ENGAÑAR",
@@ -28808,7 +28808,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/wjsBxBvRso0",
           "ocurrencias": [
             {
               "id": "9663-ENGAÑAR",
@@ -28866,7 +28866,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ATrsFjp7gjM",
           "ocurrencias": [
             {
               "id": "4882-ENSALADA",
@@ -29036,7 +29036,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/RaConD88SUM",
           "ocurrencias": [
             {
               "id": "4883-ENSEÑAR",
@@ -29283,7 +29283,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/9YcRtUapH9o",
           "ocurrencias": [
             {
               "id": "5921-ENSEÑAR",
@@ -29341,7 +29341,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Xwhubg7FVSM",
           "ocurrencias": [
             {
               "id": "3521-ENVIDIOSO",
@@ -29513,7 +29513,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/39DHRXjCMws",
           "ocurrencias": [
             {
               "id": "3527-ESCOGER",
@@ -29620,7 +29620,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/-cp6Prrjp1k",
           "ocurrencias": [
             {
               "id": "9664-ESCOGER",
@@ -29671,7 +29671,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/5cI1ArD0gAw",
           "ocurrencias": [
             {
               "id": "8394-ESCOGER",
@@ -29729,7 +29729,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/DPoXfIHcstE",
           "ocurrencias": [
             {
               "id": "3531-ESFERO",
@@ -29808,7 +29808,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ly-WzearORg",
           "ocurrencias": [
             {
               "id": "4887-ESFERO",
@@ -29894,7 +29894,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/eRjEUiwd7NE",
           "ocurrencias": [
             {
               "id": "372-ESPAÑOL",
@@ -30001,7 +30001,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ud3RyiukNrA",
           "ocurrencias": [
             {
               "id": "7527-ESPAÑOL",
@@ -36534,7 +36534,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/V56l_uzhzvo",
           "ocurrencias": [
             {
               "id": "398-GRIS",
@@ -36641,7 +36641,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/F6t0EBVoDL0",
           "ocurrencias": [
             {
               "id": "8466-GRIS",
@@ -36748,7 +36748,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/YCVEwTYoHOA",
           "ocurrencias": [
             {
               "id": "10943-GRIS",
@@ -36799,7 +36799,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/iXDTfKollJA",
           "ocurrencias": [
             {
               "id": "10944-GRIS",
@@ -36850,7 +36850,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/kArCXUT7AC0",
           "ocurrencias": [
             {
               "id": "10963-GRIS",
@@ -37024,7 +37024,7 @@
           "registro": "---",
           "matiz": "hablar mal a espaldas de alguien",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/WmlUamHAAPs",
           "ocurrencias": [
             {
               "id": "10922-HABLAR-MAL",
@@ -42279,7 +42279,7 @@
           "registro": "---",
           "matiz": "Relación con engañar.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Dv9kMpRvi4s",
           "ocurrencias": [
             {
               "id": "10832-MANIPULAR",
@@ -42337,7 +42337,7 @@
           "registro": "Discurso escolar.",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/au_cIwz7e5k",
           "ocurrencias": [
             {
               "id": "7506-COLOMBIA #1 (MODERNA)",
@@ -42388,7 +42388,7 @@
           "registro": "Discurso escolar.",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/KAy6cQ_rUXw",
           "ocurrencias": [
             {
               "id": "10787-COLOMBIA",
@@ -42646,7 +42646,7 @@
           "registro": "---",
           "matiz": "También significa color.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/SacI__pYTpE",
           "ocurrencias": [
             {
               "id": "2992-MORADO",
@@ -42697,7 +42697,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/JBXeJKxsJIQ",
           "ocurrencias": [
             {
               "id": "8703-MORADO",
@@ -42776,7 +42776,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/g1vz8eoH8Hw",
           "ocurrencias": [
             {
               "id": "10803-MORADO",
@@ -42855,7 +42855,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/NSwnRXKzzGc",
           "ocurrencias": [
             {
               "id": "10930-MORADO",
@@ -42906,7 +42906,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Sh96mmq5D6w",
           "ocurrencias": [
             {
               "id": "2250-MORADO",
@@ -42957,7 +42957,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/EaSpajPt0Gk",
           "ocurrencias": [
             {
               "id": "5038-MORADO",
@@ -43036,7 +43036,7 @@
           "registro": "---",
           "matiz": "Significa moretón.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/gTg9680KKZs",
           "ocurrencias": [
             {
               "id": "455-MORADO",
@@ -43115,7 +43115,7 @@
           "registro": "---",
           "matiz": "Significa moretón.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/EZIHbTNnbS0",
           "ocurrencias": [
             {
               "id": "10805-MORADO",
@@ -43166,7 +43166,7 @@
           "registro": "---",
           "matiz": "Significa moretón.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/hj3S0fHFfwc",
           "ocurrencias": [
             {
               "id": "10931-MORADO",
@@ -43554,7 +43554,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/OYoPQZakTOw",
           "ocurrencias": [
             {
               "id": "4710-ANARANJADO",
@@ -43740,7 +43740,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/8Iun_daJ9PU",
           "ocurrencias": [
             {
               "id": "265-ANARANJADO",
@@ -43791,7 +43791,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/A81_XnEgwwU",
           "ocurrencias": [
             {
               "id": "10937-NARANJA-COLOR",
@@ -43842,7 +43842,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/In16xUlGz_g",
           "ocurrencias": [
             {
               "id": "10938-NARANJA-COLOR",
@@ -44471,7 +44471,7 @@
           "registro": "La (A) se marca con fines educativos o por desambiguación, el uso general no se marca el género.",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/vNpjqK-QdxM",
           "ocurrencias": [
             {
               "id": "4868-ELLA",
@@ -45992,7 +45992,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/xr8iD9N7Zk4",
           "ocurrencias": [
             {
               "id": "3792-PATINAJE",
@@ -46071,7 +46071,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/r_45AprHF7w",
           "ocurrencias": [
             {
               "id": "10844-PATINAJE",
@@ -46129,7 +46129,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/F5lw68xj06o",
           "ocurrencias": [
             {
               "id": "2372-PATIO",
@@ -46187,7 +46187,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/VZz8e1xexwQ",
           "ocurrencias": [
             {
               "id": "10845-PATIO-LAVADERO",
@@ -46238,7 +46238,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/UHR3TyKyfM8",
           "ocurrencias": [
             {
               "id": "10846-PATIO-LAVADERO",
@@ -46289,7 +46289,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/lh01WA3hTdE",
           "ocurrencias": [
             {
               "id": "10964-PATIO-LAVADERO",
@@ -46340,7 +46340,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/NZW8acLmvb0",
           "ocurrencias": [
             {
               "id": "10965-PATIO-LAVADERO",
@@ -47462,7 +47462,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/S8Z2epPbjms",
           "ocurrencias": [
             {
               "id": "3075-PIZZA",
@@ -47513,7 +47513,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/0cWXxx5-vQA",
           "ocurrencias": [
             {
               "id": "2426-PIZZA",
@@ -47564,7 +47564,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/szDcI0y3S7E",
           "ocurrencias": [
             {
               "id": "7859-PIZZA",
@@ -47615,7 +47615,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/3Z2ls1WsOJE",
           "ocurrencias": [
             {
               "id": "10800-PIZZA-PORCIÓN",
@@ -47722,7 +47722,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/NpCGecyuHEU",
           "ocurrencias": [
             {
               "id": "8873-PIZZA",
@@ -47773,7 +47773,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/bEYMazNG4iM",
           "ocurrencias": [
             {
               "id": "10850-PIZZA-PORCIÓN",
@@ -47824,7 +47824,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/9MxYMGyQKMo",
           "ocurrencias": [
             {
               "id": "10851-PIZZA-PORCIÓN",
@@ -47926,7 +47926,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/G9-oxReYpAQ",
           "ocurrencias": [
             {
               "id": "10799-PIZZA",
@@ -47984,7 +47984,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Eyw5_iHZALo",
           "ocurrencias": [
             {
               "id": "10810-PLANCHA-VAPOR",
@@ -48042,7 +48042,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/zUn2I6JcqaU",
           "ocurrencias": [
             {
               "id": "9693-PLANCHAR",
@@ -48121,7 +48121,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/E6_YEZBVxc0",
           "ocurrencias": [
             {
               "id": "7860-PLANCHA",
@@ -48172,7 +48172,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/BNIEgoDl0Gs",
           "ocurrencias": [
             {
               "id": "10806-PLANCHA/PLANCHAR",
@@ -48223,7 +48223,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/FVrQcUyNw8g",
           "ocurrencias": [
             {
               "id": "10809-PLANCHA/PLANCHAR",
@@ -48281,7 +48281,7 @@
           "registro": "---",
           "matiz": "Tiene muchas interpretaciones, incluye el rasgo de los ojos y según jesús hay que agregar otras señas para que se exprese el concepto de campo, esa seña por sí sola se refiere a un lugar plano",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/72TWG5kH4zw",
           "ocurrencias": [
             {
               "id": "3834-PLAYA",
@@ -48418,7 +48418,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/8CztJXTrFd8",
           "ocurrencias": [
             {
               "id": "10811-POLLO-BROASTER",
@@ -48476,7 +48476,7 @@
           "registro": "Se refiere a la manera de manipular el pollo.",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/rlWo5HxhJRk",
           "ocurrencias": [
             {
               "id": "2439-POLLO",
@@ -48555,7 +48555,7 @@
           "registro": "Se refiere a la manera de manipular el pollo.",
           "matiz": "Se utiliza seguido de una seña que refiere la preparación del pollo o la parte del pollo.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/0-nbNk63dho",
           "ocurrencias": [
             {
               "id": "7861-POLLO",
@@ -48634,7 +48634,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/RQCLqzMvn8c",
           "ocurrencias": [
             {
               "id": "10966-POLLO-COMIDA",
@@ -48692,7 +48692,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/9LCY75dNX1M",
           "ocurrencias": [
             {
               "id": "1280-PORTERÍA",
@@ -48743,7 +48743,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Li6cw5wjnDo",
           "ocurrencias": [
             {
               "id": "10402-PORTERÍA",
@@ -48801,7 +48801,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/NUDJiZmF7us",
           "ocurrencias": [
             {
               "id": "3841-PORTERIA",
@@ -48852,7 +48852,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/YMsGH-Tf5ZI",
           "ocurrencias": [
             {
               "id": "10887-PORTERÍA-SEGURIDAD",
@@ -48903,7 +48903,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/zATWwNSGa6o",
           "ocurrencias": [
             {
               "id": "10905-PORTERÍA-SEGURIDAD",
@@ -48961,7 +48961,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/KBS4r69mXjA",
           "ocurrencias": [
             {
               "id": "2443-PORTERÍA/PORTERO",
@@ -49012,7 +49012,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/jj0yqOLvphg",
           "ocurrencias": [
             {
               "id": "5115-PORTERO",
@@ -49070,7 +49070,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ixwWqt3vFMs",
           "ocurrencias": [
             {
               "id": "5116-PRACTICAR",
@@ -49268,7 +49268,7 @@
           "registro": "---",
           "matiz": "Podría referirse a la acción-verbo.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/tYrkHBp_zCw",
           "ocurrencias": [
             {
               "id": "5117-PREGUNTAR",
@@ -49487,7 +49487,7 @@
           "registro": "---",
           "matiz": "Podría referirse a la acción-verbo.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/H5dwl8N69Yo",
           "ocurrencias": [
             {
               "id": "9567-PREGUNTAR",
@@ -49538,7 +49538,7 @@
           "registro": "---",
           "matiz": "Podría referirse a la acción-verbo.",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/LU7szz0tZiY",
           "ocurrencias": [
             {
               "id": "10973-PREGUNTAR",
@@ -49589,7 +49589,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ZUsHM-sK33E",
           "ocurrencias": [
             {
               "id": "2445-PREGUNTAR",
@@ -49756,7 +49756,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/k5Dcu-cBODY",
           "ocurrencias": [
             {
               "id": "3850-PROHIBIDO",
@@ -49835,7 +49835,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/PoL9R6rMhY4",
           "ocurrencias": [
             {
               "id": "208-PROHIBIR (FORMA 1)",
@@ -49914,7 +49914,7 @@
           "registro": "---",
           "matiz": "Pareciera tener, actualmente, la conotiación 'cancelado', apoyada por la vocalización de la palabra",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/sDWlpkUwFfY",
           "ocurrencias": [
             {
               "id": "10873-PROHIBIDO",
@@ -49965,7 +49965,7 @@
           "registro": "-",
           "matiz": "-",
           "espanol": "-",
-          "video_url": "",
+          "video_url": "https://youtu.be/SqZ9h9Pvsig",
           "ocurrencias": [
             {
               "id": "10911-PROHIBIDO",
@@ -50023,7 +50023,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/JnWlSzN-924",
           "ocurrencias": [
             {
               "id": "209-PROHIBIR (FORMA 2)",
@@ -50939,7 +50939,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/na8OoZl4y1I",
           "ocurrencias": [
             {
               "id": "5132-QUINCE",
@@ -51074,7 +51074,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/7I9bUJ_lkBo",
           "ocurrencias": [
             {
               "id": "2474-QUINCE",
@@ -51125,7 +51125,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ijJuOeOoJXc",
           "ocurrencias": [
             {
               "id": "7921-15",
@@ -51176,7 +51176,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/yxK6d2MPh0c",
           "ocurrencias": [
             {
               "id": "10859-QUINCE",
@@ -51234,7 +51234,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/YwPHsBOIo4w",
           "ocurrencias": [
             {
               "id": "8924-RÁPIDO",
@@ -51341,7 +51341,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Xh-AnCcD068",
           "ocurrencias": [
             {
               "id": "10860-RÁPIDO",
@@ -51399,7 +51399,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/NaEf25Z0UBk",
           "ocurrencias": [
             {
               "id": "10912-RÁPIDO-TRABAJO",
@@ -51457,7 +51457,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/DVdXvq6g0iA",
           "ocurrencias": [
             {
               "id": "10924-RISA",
@@ -51508,7 +51508,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/JHv2dijOlLk",
           "ocurrencias": [
             {
               "id": "10925-RISA",
@@ -51559,7 +51559,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/yBhuuJFYlHw",
           "ocurrencias": [
             {
               "id": "10926-RISA",
@@ -51610,7 +51610,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Zbc9kCPh-iM",
           "ocurrencias": [
             {
               "id": "10968-RISA",
@@ -51668,7 +51668,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/vXAQAFkcKx8",
           "ocurrencias": [
             {
               "id": "10927-RISA-COLECTIVA",
@@ -51726,7 +51726,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ARtcxN9Teuw",
           "ocurrencias": [
             {
               "id": "5145-ROJO",
@@ -51889,7 +51889,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/4vneOKWOLSU",
           "ocurrencias": [
             {
               "id": "10934-ROJO",
@@ -51940,7 +51940,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/StaBSUkPVHE",
           "ocurrencias": [
             {
               "id": "8956-ROJO",
@@ -52026,7 +52026,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Bj-BWjruwW8",
           "ocurrencias": [
             {
               "id": "10945-ROSADO",
@@ -52077,7 +52077,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/o2cfoZAYNic",
           "ocurrencias": [
             {
               "id": "10946-ROSADO",
@@ -52128,7 +52128,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/ZOnpoVabW2w",
           "ocurrencias": [
             {
               "id": "10947-ROSADO",
@@ -53341,7 +53341,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/V51-TNoUReo",
           "ocurrencias": [
             {
               "id": "10862-RÁPIDO-MOTORIZADO",
@@ -53427,7 +53427,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/g37UsmX82XY",
           "ocurrencias": [
             {
               "id": "1752-COMIDA",
@@ -53478,7 +53478,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Tj5hcasckWM",
           "ocurrencias": [
             {
               "id": "10969-VENDER",
@@ -53529,7 +53529,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/iw60Tx7zp38",
           "ocurrencias": [
             {
               "id": "10970-VENDER",
@@ -53587,7 +53587,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/t4vXXe83odw",
           "ocurrencias": [
             {
               "id": "5228-VERDE",
@@ -53722,7 +53722,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/srSGgzpKL5M",
           "ocurrencias": [
             {
               "id": "7899-VERDE",
@@ -53857,7 +53857,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/19OhYHQiZc8",
           "ocurrencias": [
             {
               "id": "10939-VERDE",
@@ -53908,7 +53908,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/sr7K8s9TDM8",
           "ocurrencias": [
             {
               "id": "10940-VERDE",
@@ -53959,7 +53959,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/eHWntbogZIk",
           "ocurrencias": [
             {
               "id": "10941-VERDE",
@@ -55756,7 +55756,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/Ovz1cOdpfXE",
           "ocurrencias": [
             {
               "id": "1445-¿CUÁL-DE-LOS-DOS?",
@@ -55807,7 +55807,7 @@
           "registro": "---",
           "matiz": "---",
           "espanol": "---",
-          "video_url": "",
+          "video_url": "https://youtu.be/L7myW-B6Q2c",
           "ocurrencias": [
             {
               "id": "5857-¿CUAL? (OPCIÓN 2)",

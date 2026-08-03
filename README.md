@@ -1,5 +1,6 @@
-# Catálogo léxico de SEMILLES
+# LeSiCo: base de datos léxica de la LSC
 
-Sitio estático de consulta de conceptos, alternativas léxicas, variantes fonológicas y fuentes documentadas en el proyecto SEMILLES.
+Vocabulario de la LSC recopilado de diversas fuentes y organizado por SEMILLES.
 
-El archivo `catalogo.json` se genera desde la base interna mediante el exportador de Python. Los videos visibles corresponden a regrabaciones propias asociadas a alternativas.
+Este directorio contiene la versión pública estática de LeSiCo. Los datos se
+generan desde `LeSiCo.db` y desde la hoja `Videos` del Excel de trabajo.

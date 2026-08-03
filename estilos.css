@@ -33,6 +33,13 @@ input {
   font-size: clamp(1.35rem, 2.5vw, 2rem);
 }
 
+.subtitulo {
+  max-width: 760px;
+  margin: 0.35rem 0 0;
+  color: #52616b;
+  font-size: 0.95rem;
+}
+
 .sobrelinea {
   margin: 0 0 0.2rem;
   font-size: 0.78rem;

@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo léxico SEMILLES</title>
+  <title>LeSiCo: base de datos léxica de la LSC</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header class="encabezado">
     <div>
       <p class="sobrelinea">SEMILLES</p>
-      <h1>Catálogo léxico de SEMILLES</h1>
+      <h1>LeSiCo: base de datos léxica de la LSC</h1>
+      <p class="subtitulo">Vocabulario de la LSC recopilado de diversas fuentes y organizado por SEMILLES</p>
     </div>
     <div class="metadatos-catalogo">
       <p id="resumen-catalogo" class="resumen-catalogo"></p>
@@ -18,17 +19,18 @@
     </div>
   </header>
 
-  <section class="nota-metodologica" aria-label="Sobre el catálogo">
+  <section class="nota-metodologica" aria-label="Sobre la base de datos">
     <p>
-      Este catálogo presenta resultados de documentación y análisis de vocabulario en
-      Lengua de Señas Colombiana. La organización por conceptos, alternativas léxicas y
-      variantes fonológicas es descriptiva y no establece formas únicas de uso.
+      Esta base de datos muestra conceptos, alternativas léxicas, variantes fonológicas y
+      las fuentes en las que se ha documentado el vocabulario. Su clasificación es
+      descriptiva, se encuentra en desarrollo y no pretende establecer formas únicas de uso
+      en la Lengua de Señas Colombiana.
     </p>
   </section>
 
   <main class="aplicacion">
     <aside class="panel-conceptos" aria-label="Conceptos">
-      <label for="buscador" class="etiqueta-buscador">Buscar en el catálogo</label>
+      <label for="buscador" class="etiqueta-buscador">Buscar en la base de datos</label>
       <input
         id="buscador"
         class="buscador"
@@ -42,14 +44,14 @@
 
     <section id="panel-detalle" class="panel-detalle" aria-live="polite">
       <div class="estado-inicial">
-        <h2>Cargando catálogo…</h2>
+        <h2>Cargando base de datos…</h2>
       </div>
     </section>
   </main>
 
   <template id="plantilla-error">
     <div class="mensaje-error">
-      <h2>No fue posible cargar el catálogo</h2>
+      <h2>No fue posible cargar la base de datos</h2>
       <p></p>
     </div>
   </template>
