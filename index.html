@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo léxico SEMILLES</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div>
+      <p class="sobrelinea">SEMILLES</p>
+      <h1>Catálogo léxico de SEMILLES</h1>
+    </div>
+    <div class="metadatos-catalogo">
+      <p id="resumen-catalogo" class="resumen-catalogo"></p>
+      <p id="fecha-actualizacion" class="fecha"></p>
+    </div>
+  </header>
+
+  <section class="nota-metodologica" aria-label="Sobre el catálogo">
+    <p>
+      Este catálogo presenta resultados de documentación y análisis de vocabulario en
+      Lengua de Señas Colombiana. La organización por conceptos, alternativas léxicas y
+      variantes fonológicas es descriptiva y no establece formas únicas de uso.
+    </p>
+  </section>
+
+  <main class="aplicacion">
+    <aside class="panel-conceptos" aria-label="Conceptos">
+      <label for="buscador" class="etiqueta-buscador">Buscar en el catálogo</label>
+      <input
+        id="buscador"
+        class="buscador"
+        type="search"
+        placeholder="Concepto, alternativa, glosa o fuente"
+        autocomplete="off"
+      >
+      <p id="contador-resultados" class="contador"></p>
+      <nav id="lista-conceptos" class="lista-conceptos"></nav>
+    </aside>
+
+    <section id="panel-detalle" class="panel-detalle" aria-live="polite">
+      <div class="estado-inicial">
+        <h2>Cargando catálogo…</h2>
+      </div>
+    </section>
+  </main>
+
+  <template id="plantilla-error">
+    <div class="mensaje-error">
+      <h2>No fue posible cargar el catálogo</h2>
+      <p></p>
+    </div>
+  </template>
+
+  <script src="aplicacion.js" defer></script>
+</body>
+</html>

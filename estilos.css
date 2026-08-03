@@ -1,0 +1,401 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2933;
+  background: #f4f6f8;
+  line-height: 1.45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #d9e0e6;
+}
+
+.encabezado h1 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+}
+
+.sobrelinea {
+  margin: 0 0 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.metadatos-catalogo {
+  text-align: right;
+}
+
+.resumen-catalogo,
+.fecha {
+  margin: 0;
+  color: #52616b;
+  font-size: 0.88rem;
+}
+
+.resumen-catalogo {
+  font-weight: 700;
+}
+
+.aplicacion {
+  display: grid;
+  grid-template-columns: minmax(270px, 30%) minmax(0, 1fr);
+  min-height: calc(100vh - 96px);
+}
+
+.panel-conceptos {
+  padding: 1rem;
+  background: #ffffff;
+  border-right: 1px solid #d9e0e6;
+}
+
+.etiqueta-buscador {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+}
+
+.buscador {
+  width: 100%;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #9baab4;
+  border-radius: 0.45rem;
+}
+
+.buscador:focus {
+  outline: 3px solid rgba(32, 96, 145, 0.2);
+  border-color: #206091;
+}
+
+.contador {
+  min-height: 1.2em;
+  margin: 0.65rem 0;
+  color: #52616b;
+  font-size: 0.86rem;
+}
+
+.lista-conceptos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-height: calc(100vh - 245px);
+  overflow-y: auto;
+}
+
+.boton-concepto {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 0;
+  border-radius: 0.35rem;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.boton-concepto:hover,
+.boton-concepto.activo {
+  background: #e8f0f5;
+}
+
+.boton-concepto.activo {
+  box-shadow: inset 4px 0 0 #206091;
+}
+
+.nombre-concepto {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 700;
+}
+
+.conteo-concepto {
+  flex: 0 0 auto;
+  color: #667782;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.sin-resultados {
+  padding: 0.75rem;
+  color: #667782;
+}
+
+.panel-detalle {
+  min-width: 0;
+  padding: 1.5rem;
+}
+
+.estado-inicial,
+.mensaje-error {
+  max-width: 680px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border: 1px solid #d9e0e6;
+  border-radius: 0.65rem;
+}
+
+.cabecera-concepto {
+  margin-bottom: 1.25rem;
+}
+
+.cabecera-concepto h2 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+}
+
+.campos-semanticos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.etiqueta {
+  display: inline-block;
+  padding: 0.32rem 0.58rem;
+  background: #e8f0f5;
+  border-radius: 999px;
+  font-size: 0.86rem;
+}
+
+.resumen-concepto {
+  margin: 0.65rem 0 0;
+  color: #52616b;
+  font-size: 0.9rem;
+}
+
+.bloque {
+  margin-bottom: 1.25rem;
+  padding: 1.1rem;
+  background: #ffffff;
+  border: 1px solid #d9e0e6;
+  border-radius: 0.65rem;
+}
+
+.bloque h3,
+.bloque h4 {
+  margin-top: 0;
+}
+
+.grupo-lexico + .grupo-lexico {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3e8ec;
+}
+
+.grupo-lexico h4 {
+  margin-bottom: 0.55rem;
+}
+
+.botones-variantes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.boton-variante {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #206091;
+  border-radius: 0.4rem;
+  background: #ffffff;
+  color: #16486d;
+  cursor: pointer;
+}
+
+.boton-variante:hover,
+.boton-variante.activo {
+  background: #206091;
+  color: #ffffff;
+}
+
+.indicador-video {
+  font-size: 0.72rem;
+}
+
+.ficha-alternativa {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.identificador-alternativa {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.video-contenedor {
+  width: min(100%, 760px);
+  aspect-ratio: 16 / 9;
+  background: #111111;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.video-contenedor iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-ausente {
+  display: grid;
+  place-items: center;
+  width: min(100%, 760px);
+  min-height: 150px;
+  padding: 1rem;
+  background: #eef1f3;
+  border: 1px dashed #9baab4;
+  border-radius: 0.5rem;
+  color: #52616b;
+  text-align: center;
+}
+
+.resumen-datos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
+  margin: 0;
+}
+
+.dato {
+  padding: 0.8rem;
+  background: #f7f9fa;
+  border-radius: 0.45rem;
+}
+
+.dato dt {
+  font-weight: 700;
+}
+
+.dato dd {
+  margin: 0.2rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.pestanas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #d9e0e6;
+}
+
+.boton-pestana {
+  padding: 0.6rem 0.8rem;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+.boton-pestana.activo {
+  border-bottom-color: #206091;
+  color: #16486d;
+  font-weight: 700;
+}
+
+.panel-pestana[hidden] {
+  display: none;
+}
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.65rem;
+  border-bottom: 1px solid #d9e0e6;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f2f5f7;
+}
+
+.sin-datos {
+  color: #667782;
+  font-style: italic;
+}
+
+@media (max-width: 760px) {
+  .encabezado {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .metadatos-catalogo {
+    text-align: left;
+  }
+
+  .aplicacion {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-conceptos {
+    border-right: 0;
+    border-bottom: 1px solid #d9e0e6;
+  }
+
+  .lista-conceptos {
+    max-height: 230px;
+  }
+
+  .panel-detalle {
+    padding: 1rem;
+  }
+}
+
+.nota-metodologica {
+  padding: 0.8rem 1.5rem;
+  background: #eef4f7;
+  border-bottom: 1px solid #d9e0e6;
+  color: #334e5c;
+}
+
+.nota-metodologica p {
+  max-width: 1100px;
+  margin: 0;
+}
+
+.clasificacion-alternativa {
+  margin: -0.8rem 0 0;
+  color: #52616b;
+  font-size: 0.92rem;
+}
+
+.dato code {
+  padding: 0.12rem 0.32rem;
+  background: #e9eef1;
+  border-radius: 0.25rem;
+  font-family: Consolas, "Courier New", monospace;
+}
