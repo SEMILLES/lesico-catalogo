@@ -36,6 +36,7 @@ const estado = {
   camposSemanticosSeleccionados: new Set(),
   tipoVariacion: "todas",
   soloConVideo: false,
+  redVariacionAbierta: false,
 };
 
 const listaConceptos = document.querySelector("#lista-conceptos");
@@ -406,6 +407,9 @@ function seleccionarConcepto(conceptoId, alternativaId = "") {
   );
   if (!concepto) return;
 
+  const cambioConcepto = estado.conceptoSeleccionado?.id !== concepto.id;
+  if (cambioConcepto) estado.redVariacionAbierta = false;
+
   estado.conceptoSeleccionado = concepto;
   estado.alternativaSeleccionada =
     concepto.alternativas.find((item) => item.id === alternativaId)
@@ -461,6 +465,281 @@ function renderizarAlternativas(concepto) {
       `;
     })
     .join("");
+}
+
+
+const PALETA_RED = Object.freeze([
+  { borde: "#7651b5", fondo: "#f1ecfa", texto: "#563690" },
+  { borde: "#2978b8", fondo: "#eaf4fc", texto: "#175b91" },
+  { borde: "#d58a13", fondo: "#fff6df", texto: "#9a5b00" },
+  { borde: "#4b9a4a", fondo: "#ecf8eb", texto: "#2f7430" },
+  { borde: "#b55378", fondo: "#faedf2", texto: "#8a3658" },
+  { borde: "#687b8c", fondo: "#edf1f4", texto: "#465765" },
+]);
+
+function colorRed(indice) {
+  return PALETA_RED[indice % PALETA_RED.length];
+}
+
+function etiquetaBreveAlternativa(id) {
+  const sufijo = obtenerSufijoAlternativa(id);
+  return sufijo.valido ? `${sufijo.numero}${sufijo.letra}` : String(id);
+}
+
+function calcularDisposicionNodos(cantidad) {
+  const anchoNodo = 96;
+  const altoNodo = 54;
+
+  if (cantidad <= 1) {
+    return {
+      ancho: 280,
+      alto: 150,
+      anchoNodo,
+      altoNodo,
+      posiciones: [{ x: 92, y: 58 }],
+    };
+  }
+
+  if (cantidad === 2) {
+    return {
+      ancho: 430,
+      alto: 165,
+      anchoNodo,
+      altoNodo,
+      posiciones: [
+        { x: 34, y: 60 },
+        { x: 300, y: 60 },
+      ],
+    };
+  }
+
+  if (cantidad === 3) {
+    return {
+      ancho: 430,
+      alto: 270,
+      anchoNodo,
+      altoNodo,
+      posiciones: [
+        { x: 34, y: 42 },
+        { x: 300, y: 42 },
+        { x: 167, y: 178 },
+      ],
+    };
+  }
+
+  if (cantidad === 4) {
+    return {
+      ancho: 430,
+      alto: 300,
+      anchoNodo,
+      altoNodo,
+      posiciones: [
+        { x: 34, y: 42 },
+        { x: 300, y: 42 },
+        { x: 34, y: 204 },
+        { x: 300, y: 204 },
+      ],
+    };
+  }
+
+  const columnas = cantidad <= 6 ? 3 : 4;
+  const separacionX = 92;
+  const separacionY = 88;
+  const margenX = 30;
+  const margenSuperior = 44;
+  const filas = Math.ceil(cantidad / columnas);
+  const ancho = margenX * 2 + columnas * anchoNodo + (columnas - 1) * separacionX;
+  const alto = margenSuperior + filas * altoNodo + (filas - 1) * separacionY + 42;
+  const posiciones = [];
+
+  for (let indice = 0; indice < cantidad; indice += 1) {
+    const fila = Math.floor(indice / columnas);
+    const columna = indice % columnas;
+    const elementosFila = Math.min(columnas, cantidad - fila * columnas);
+    const anchoFila = elementosFila * anchoNodo + (elementosFila - 1) * separacionX;
+    const inicioFila = (ancho - anchoFila) / 2;
+    posiciones.push({
+      x: inicioFila + columna * (anchoNodo + separacionX),
+      y: margenSuperior + fila * (altoNodo + separacionY),
+    });
+  }
+
+  return { ancho, alto, anchoNodo, altoNodo, posiciones };
+}
+
+function relacionesValidasGrupo(alternativas) {
+  const porId = new Map(alternativas.map((alternativa) => [alternativa.id, alternativa]));
+  const relaciones = [];
+  const vistas = new Set();
+
+  for (const alternativa of alternativas) {
+    if (!tieneDato(alternativa.varia_alt) || !tieneDato(alternativa.varia_para)) {
+      continue;
+    }
+    const referencia = porId.get(String(alternativa.varia_alt).trim());
+    if (!referencia) continue;
+
+    const extremos = [alternativa.id, referencia.id].sort();
+    const clave = `${extremos.join("||")}||${String(alternativa.varia_para).trim()}`;
+    if (vistas.has(clave)) continue;
+    vistas.add(clave);
+
+    relaciones.push({
+      origen: referencia.id,
+      destino: alternativa.id,
+      codigo: String(alternativa.varia_para).trim(),
+    });
+  }
+
+  return relaciones;
+}
+
+function renderizarEtiquetaRelacion(x, y, codigo) {
+  const texto = String(codigo);
+  const ancho = Math.max(58, texto.length * 7.2 + 18);
+  return `
+    <g class="etiqueta-relacion-red" transform="translate(${x - ancho / 2} ${y - 13})">
+      <rect width="${ancho}" height="26" rx="13"></rect>
+      <text x="${ancho / 2}" y="17" text-anchor="middle">${escaparHTML(texto)}</text>
+    </g>
+  `;
+}
+
+function renderizarGrupoRed(numero, alternativas, indiceGrupo) {
+  const color = colorRed(indiceGrupo);
+  const disposicion = calcularDisposicionNodos(alternativas.length);
+  const posiciones = new Map();
+  alternativas.forEach((alternativa, indice) => {
+    posiciones.set(alternativa.id, disposicion.posiciones[indice]);
+  });
+
+  const relaciones = relacionesValidasGrupo(alternativas);
+  const referencias = new Set(relaciones.map((relacion) => relacion.origen));
+
+  const lineas = relaciones.map((relacion, indice) => {
+    const inicio = posiciones.get(relacion.origen);
+    const fin = posiciones.get(relacion.destino);
+    if (!inicio || !fin) return "";
+
+    const x1 = inicio.x + disposicion.anchoNodo / 2;
+    const y1 = inicio.y + disposicion.altoNodo / 2;
+    const x2 = fin.x + disposicion.anchoNodo / 2;
+    const y2 = fin.y + disposicion.altoNodo / 2;
+    const desplazamiento = relaciones.length > 2 ? (indice % 2 === 0 ? -10 : 10) : 0;
+    const medioX = (x1 + x2) / 2;
+    const medioY = (y1 + y2) / 2 + desplazamiento;
+
+    return `
+      <line class="linea-red" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"></line>
+      ${renderizarEtiquetaRelacion(medioX, medioY, relacion.codigo)}
+    `;
+  }).join("");
+
+  const nodos = alternativas.map((alternativa) => {
+    const posicion = posiciones.get(alternativa.id);
+    const etiqueta = etiquetaBreveAlternativa(alternativa.id);
+    const activa = estado.alternativaSeleccionada?.id === alternativa.id;
+    const referencia = referencias.has(alternativa.id);
+    const clases = ["nodo-red"];
+    if (activa) clases.push("activo");
+    if (referencia) clases.push("referencia");
+
+    return `
+      <g
+        class="${clases.join(" ")}"
+        data-red-alternativa="${escaparHTML(alternativa.id)}"
+        role="button"
+        tabindex="0"
+        aria-label="Abrir ${escaparHTML(alternativa.id)}"
+        transform="translate(${posicion.x} ${posicion.y})"
+      >
+        <title>${escaparHTML(alternativa.id)}</title>
+        <rect width="${disposicion.anchoNodo}" height="${disposicion.altoNodo}" rx="12"></rect>
+        <text
+          class="texto-nodo-red"
+          x="${disposicion.anchoNodo / 2}"
+          y="${disposicion.altoNodo / 2 + 6}"
+          text-anchor="middle"
+        >${escaparHTML(etiqueta)}</text>
+      </g>
+    `;
+  }).join("");
+
+  return `
+    <article
+      class="grupo-red"
+      style="--red-borde:${color.borde}; --red-fondo:${color.fondo}; --red-texto:${color.texto};"
+    >
+      <h4>Alternativa léxica ${escaparHTML(numero)}</h4>
+      <div class="lienzo-red" tabindex="0">
+        <svg
+          viewBox="0 0 ${disposicion.ancho} ${disposicion.alto}"
+          role="img"
+          aria-label="Variantes de la alternativa léxica ${escaparHTML(numero)}"
+        >
+          ${lineas}
+          ${nodos}
+        </svg>
+      </div>
+    </article>
+  `;
+}
+
+function parametrosRedConcepto(concepto) {
+  const parametros = new Set();
+  const grupos = agruparAlternativas(concepto.alternativas ?? []);
+  for (const [, alternativas] of grupos) {
+    for (const relacion of relacionesValidasGrupo(alternativas)) {
+      parametros.add(relacion.codigo);
+    }
+  }
+  return [...parametros].sort((a, b) => a.localeCompare(b, "es"));
+}
+
+function renderizarRedVariacion(concepto) {
+  const alternativas = concepto.alternativas ?? [];
+  if (alternativas.length <= 1) return "";
+
+  const grupos = agruparAlternativas(alternativas);
+  const tarjetas = grupos
+    .map(([numero, alternativasGrupo], indice) =>
+      renderizarGrupoRed(numero, alternativasGrupo, indice),
+    )
+    .join("");
+  const parametros = parametrosRedConcepto(concepto);
+  const leyendaParametros = parametros.length
+    ? `
+      <div class="leyenda-parametros-red" aria-label="Códigos de análisis presentes">
+        ${parametros.map((codigo) => `
+          <span class="item-parametro-red">
+            <code>${escaparHTML(codigo)}</code>
+            <span>${escaparHTML(etiquetaParametro(codigo))}</span>
+          </span>
+        `).join("")}
+      </div>
+    `
+    : "";
+
+  return `
+    <details
+      id="red-variacion"
+      class="bloque bloque-red-variacion"
+      ${estado.redVariacionAbierta ? "open" : ""}
+    >
+      <summary class="resumen-red-variacion">
+        <span>Red de variación léxica y fonológica</span>
+        <span class="indicador-desplegable" aria-hidden="true"></span>
+      </summary>
+      <div class="contenido-red-variacion">
+        <p class="explicacion-red-variacion">
+          Cada bloque corresponde a una alternativa léxica. Las líneas relacionan
+          únicamente variantes fonológicas del mismo bloque.
+        </p>
+        <div class="rejilla-redes">${tarjetas}</div>
+        ${leyendaParametros}
+      </div>
+    </details>
+  `;
 }
 
 function filaDato(titulo, valor) {
@@ -670,6 +949,8 @@ function renderizarConcepto() {
       ${renderizarAlternativas(concepto)}
     </section>
 
+    ${renderizarRedVariacion(concepto)}
+
     <section id="contenedor-alternativa">
       ${renderizarFichaAlternativa(estado.alternativaSeleccionada)}
     </section>
@@ -684,6 +965,33 @@ function renderizarConcepto() {
       estado.alternativaSeleccionada = alternativa;
       actualizarEnlace(concepto.id, alternativa.id);
       renderizarConcepto();
+    });
+  });
+
+  const detalleRed = document.querySelector("#red-variacion");
+  if (detalleRed) {
+    detalleRed.addEventListener("toggle", () => {
+      estado.redVariacionAbierta = detalleRed.open;
+    });
+  }
+
+  document.querySelectorAll("[data-red-alternativa]").forEach((nodo) => {
+    const activarNodo = () => {
+      const alternativa = concepto.alternativas.find(
+        (item) => item.id === nodo.dataset.redAlternativa,
+      );
+      if (!alternativa) return;
+      estado.alternativaSeleccionada = alternativa;
+      actualizarEnlace(concepto.id, alternativa.id);
+      renderizarConcepto();
+    };
+
+    nodo.addEventListener("click", activarNodo);
+    nodo.addEventListener("keydown", (evento) => {
+      if (evento.key === "Enter" || evento.key === " ") {
+        evento.preventDefault();
+        activarNodo();
+      }
     });
   });
 

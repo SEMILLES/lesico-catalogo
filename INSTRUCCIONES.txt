@@ -1,32 +1,24 @@
-ACTUALIZACIÓN DE FILTROS PARA LeSiCo
+ACTUALIZACIÓN FINAL DE REDES DE VARIACIÓN — LeSiCo
 
+Archivos incluidos:
+- aplicacion.js
+- estilos.css
+- index.html (sin cambios sustanciales; se incluye por compatibilidad)
+
+INSTALACIÓN
 1. Haz una copia de seguridad de la carpeta web actual.
-2. Copia index.html, aplicacion.js y estilos.css dentro de la carpeta web del proyecto.
-3. Acepta reemplazar los tres archivos existentes.
-4. No reemplaces catalogo.json.
-5. Ejecuta iniciar_web.bat.
-6. Abre http://localhost:8000 y actualiza con Ctrl+F5.
+2. Reemplaza aplicacion.js y estilos.css dentro de la carpeta web.
+3. No reemplaces catalogo.json.
+4. Ejecuta iniciar_web.bat.
+5. Abre http://localhost:8000 y recarga con Ctrl+F5.
 
-FUNCIONES AÑADIDAS
-- Selección de uno o varios campos semánticos.
-- Búsqueda dentro del selector de campos semánticos.
-- Coincidencia por cualquiera de los campos seleccionados.
-- Filtro por tipo de variación:
-  * Todas
-  * Sin variación registrada
-  * Solo variación léxica
-  * Solo variación fonológica
-  * Variación léxica y fonológica
-- Filtro «Solo conceptos con video».
-- Combinación simultánea de búsqueda y filtros.
-- Contador actualizado de resultados.
-- Botón «Limpiar filtros».
-
-REGLAS DE VARIACIÓN
-- Sin variación registrada: una sola alternativa, por ejemplo 1a.
-- Solo variación léxica: varios números, sin varias letras dentro del mismo número; por ejemplo 1a, 2a y 3a.
-- Solo variación fonológica: un solo número con varias letras; por ejemplo 1a, 1b y 1c.
-- Variación léxica y fonológica: varios números y al menos uno con varias letras; por ejemplo 1a, 2a, 2b y 3a.
-
-PUBLICACIÓN
-Cuando la prueba local funcione, sube al repositorio los tres archivos actualizados. catalogo.json solo debe volver a subirse cuando cambien los datos.
+CAMBIOS
+- Se conserva el menú normal de Alternativas.
+- La red aparece debajo como sección expandible, cerrada por defecto.
+- Dentro de los nodos solo se muestra 1a, 1b, 2a, etc.
+- El identificador completo aparece al pasar el cursor y se usa en accesibilidad.
+- Los grupos de una sola variante muestran únicamente el nodo aislado.
+- No aparecen mensajes de ausencia de relaciones fonológicas.
+- Al pulsar un nodo se selecciona la misma alternativa en la ficha normal.
+- Si la red estaba abierta, permanece abierta al cambiar de nodo.
+- Al seleccionar otro concepto, la red vuelve a cerrarse.

@@ -599,3 +599,257 @@ select {
   opacity: 0.45;
   cursor: default;
 }
+
+/* Prototipo: redes de variación léxica y fonológica */
+.bloque-red-variacion {
+  overflow: hidden;
+}
+
+.cabecera-red-variacion {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cabecera-red-variacion h3 {
+  margin-bottom: 0.3rem;
+}
+
+.cabecera-red-variacion p {
+  max-width: 780px;
+  margin: 0;
+  color: #52616b;
+}
+
+.rejilla-redes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.grupo-red {
+  min-width: 0;
+  padding: 0.9rem;
+  background: var(--red-fondo);
+  border: 1px solid color-mix(in srgb, var(--red-borde) 58%, white);
+  border-radius: 1rem;
+}
+
+.grupo-red h4 {
+  margin: 0 0 0.4rem;
+  color: var(--red-texto);
+  text-align: center;
+}
+
+.lienzo-red {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 0.75rem;
+  outline: none;
+}
+
+.lienzo-red:focus-visible {
+  box-shadow: 0 0 0 3px rgba(32, 96, 145, 0.22);
+}
+
+.lienzo-red svg {
+  display: block;
+  width: 100%;
+  min-width: 280px;
+  height: auto;
+}
+
+.linea-red {
+  stroke: var(--red-borde);
+  stroke-width: 2.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.etiqueta-relacion-red rect {
+  fill: #ffffff;
+  stroke: color-mix(in srgb, var(--red-borde) 55%, white);
+  stroke-width: 1;
+}
+
+.etiqueta-relacion-red text {
+  fill: #243642;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nodo-red {
+  cursor: pointer;
+  outline: none;
+}
+
+.nodo-red rect {
+  fill: #ffffff;
+  stroke: var(--red-borde);
+  stroke-width: 2;
+  transition: fill 140ms ease, stroke-width 140ms ease, filter 140ms ease;
+}
+
+.nodo-red:hover rect,
+.nodo-red:focus-visible rect {
+  fill: color-mix(in srgb, var(--red-fondo) 52%, white);
+  stroke-width: 3;
+  filter: drop-shadow(0 3px 5px rgba(30, 48, 59, 0.18));
+}
+
+.nodo-red.referencia rect {
+  stroke-dasharray: 0;
+}
+
+.nodo-red.referencia::after {
+  content: "";
+}
+
+.nodo-red.activo rect {
+  fill: var(--red-borde);
+  stroke-width: 3;
+  filter: drop-shadow(0 3px 6px rgba(30, 48, 59, 0.2));
+}
+
+.texto-nodo-red {
+  fill: #17252f;
+  font-size: 13px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.sufijo-nodo-red {
+  fill: var(--red-texto);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 15px;
+}
+
+.nodo-red.activo .texto-nodo-red,
+.nodo-red.activo .sufijo-nodo-red {
+  fill: #ffffff;
+}
+
+.nota-grupo-red {
+  margin: 0.2rem 0 0;
+  color: #667782;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.leyenda-parametros-red {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9e0e6;
+}
+
+.item-parametro-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.6rem;
+  background: #f4f7f9;
+  border: 1px solid #d9e0e6;
+  border-radius: 999px;
+  font-size: 0.82rem;
+}
+
+.item-parametro-red code {
+  padding: 0.08rem 0.28rem;
+  background: #e4eaee;
+  border-radius: 0.25rem;
+  color: #243642;
+  font-family: Consolas, "Courier New", monospace;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .rejilla-redes {
+    grid-template-columns: 1fr;
+  }
+
+  .grupo-red {
+    padding: 0.7rem;
+  }
+
+  .lienzo-red svg {
+    width: auto;
+    max-width: none;
+    min-height: 160px;
+  }
+
+  .item-parametro-red {
+    align-items: flex-start;
+    border-radius: 0.55rem;
+  }
+}
+
+/* Versión final de la sección expandible de variación */
+.bloque-red-variacion {
+  padding: 0;
+}
+
+.resumen-red-variacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  color: #17252f;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.resumen-red-variacion::-webkit-details-marker {
+  display: none;
+}
+
+.resumen-red-variacion:hover {
+  background: #f7f9fa;
+}
+
+.resumen-red-variacion:focus-visible {
+  outline: 3px solid rgba(32, 96, 145, 0.22);
+  outline-offset: -3px;
+}
+
+.indicador-desplegable::before {
+  content: "▾";
+  display: inline-block;
+  color: #52616b;
+  transition: transform 160ms ease;
+}
+
+.bloque-red-variacion[open] .indicador-desplegable::before {
+  transform: rotate(180deg);
+}
+
+.contenido-red-variacion {
+  padding: 0 1.1rem 1.1rem;
+  border-top: 1px solid #e3e8ec;
+}
+
+.explicacion-red-variacion {
+  max-width: 780px;
+  margin: 0.9rem 0 1rem;
+  color: #52616b;
+}
+
+/* Los nodos muestran solo el sufijo 1a, 1b, etc. */
+.texto-nodo-red {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Las tarjetas con un solo nodo no necesitan mensajes adicionales. */
+.nota-grupo-red {
+  display: none;
+}
