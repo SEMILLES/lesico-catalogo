@@ -32,6 +32,10 @@ const estado = {
   conceptosFiltrados: [],
   conceptoSeleccionado: null,
   alternativaSeleccionada: null,
+  camposSemanticos: [],
+  camposSemanticosSeleccionados: new Set(),
+  tipoVariacion: "todas",
+  soloConVideo: false,
 };
 
 const listaConceptos = document.querySelector("#lista-conceptos");
@@ -40,6 +44,14 @@ const buscador = document.querySelector("#buscador");
 const contadorResultados = document.querySelector("#contador-resultados");
 const fechaActualizacion = document.querySelector("#fecha-actualizacion");
 const resumenCatalogo = document.querySelector("#resumen-catalogo");
+const selectorCampos = document.querySelector("#selector-campos");
+const resumenCampos = document.querySelector("#resumen-campos");
+const buscadorCampos = document.querySelector("#buscador-campos");
+const listaCampos = document.querySelector("#lista-campos");
+const camposSeleccionados = document.querySelector("#campos-seleccionados");
+const filtroVariacion = document.querySelector("#filtro-variacion");
+const filtroVideo = document.querySelector("#filtro-video");
+const limpiarFiltros = document.querySelector("#limpiar-filtros");
 
 function tieneDato(valor) {
   if (valor === null || valor === undefined) return false;
@@ -78,9 +90,13 @@ function normalizarBusqueda(valor) {
 function obtenerSufijoAlternativa(id) {
   const coincidencia = String(id).match(/-(\d+)([a-z]+)$/i);
   if (!coincidencia) {
-    return { numero: "Sin clasificar", letra: id };
+    return { numero: "Sin clasificar", letra: id, valido: false };
   }
-  return { numero: coincidencia[1], letra: coincidencia[2].toLowerCase() };
+  return {
+    numero: coincidencia[1],
+    letra: coincidencia[2].toLowerCase(),
+    valido: true,
+  };
 }
 
 function convertirVideoAEmbed(url) {
@@ -175,6 +191,166 @@ function textoBusquedaConcepto(concepto) {
   }
 
   return normalizarBusqueda(partes.filter(tieneDato).join(" "));
+}
+
+function camposSemanticosConcepto(concepto) {
+  const campos = [concepto.sem_1, concepto.sem_2]
+    .filter(tieneDato)
+    .map((valor) => normalizarBusqueda(valor));
+  return [...new Set(campos)];
+}
+
+function prepararCamposSemanticos() {
+  const porClave = new Map();
+
+  for (const concepto of estado.catalogo.conceptos ?? []) {
+    for (const valor of [concepto.sem_1, concepto.sem_2]) {
+      if (!tieneDato(valor)) continue;
+      const etiqueta = String(valor).trim();
+      const clave = normalizarBusqueda(etiqueta);
+      if (!porClave.has(clave)) porClave.set(clave, etiqueta);
+    }
+  }
+
+  estado.camposSemanticos = [...porClave.entries()]
+    .map(([clave, etiqueta]) => ({ clave, etiqueta }))
+    .sort((a, b) =>
+      a.etiqueta.localeCompare(b.etiqueta, "es", { sensitivity: "base" }),
+    );
+}
+
+function etiquetaCampoPorClave(clave) {
+  return estado.camposSemanticos.find((campo) => campo.clave === clave)?.etiqueta
+    ?? clave;
+}
+
+function renderizarOpcionesCampos() {
+  const consulta = normalizarBusqueda(buscadorCampos.value);
+  const disponibles = estado.camposSemanticos.filter((campo) =>
+    !consulta || normalizarBusqueda(campo.etiqueta).includes(consulta),
+  );
+
+  listaCampos.innerHTML = "";
+
+  if (disponibles.length === 0) {
+    listaCampos.innerHTML = '<p class="sin-opciones">No se encontraron campos.</p>';
+    return;
+  }
+
+  const fragmento = document.createDocumentFragment();
+
+  for (const campo of disponibles) {
+    const etiqueta = document.createElement("label");
+    etiqueta.className = "opcion-campo";
+
+    const casilla = document.createElement("input");
+    casilla.type = "checkbox";
+    casilla.value = campo.clave;
+    casilla.checked = estado.camposSemanticosSeleccionados.has(campo.clave);
+    casilla.addEventListener("change", () => {
+      if (casilla.checked) {
+        estado.camposSemanticosSeleccionados.add(campo.clave);
+      } else {
+        estado.camposSemanticosSeleccionados.delete(campo.clave);
+      }
+      actualizarPresentacionCampos();
+      filtrarConceptos();
+    });
+
+    const texto = document.createElement("span");
+    texto.textContent = campo.etiqueta;
+
+    etiqueta.append(casilla, texto);
+    fragmento.appendChild(etiqueta);
+  }
+
+  listaCampos.appendChild(fragmento);
+}
+
+function renderizarCamposSeleccionados() {
+  camposSeleccionados.innerHTML = "";
+
+  if (estado.camposSemanticosSeleccionados.size === 0) return;
+
+  const fragmento = document.createDocumentFragment();
+  const clavesOrdenadas = [...estado.camposSemanticosSeleccionados].sort((a, b) =>
+    etiquetaCampoPorClave(a).localeCompare(etiquetaCampoPorClave(b), "es", {
+      sensitivity: "base",
+    }),
+  );
+
+  for (const clave of clavesOrdenadas) {
+    const boton = document.createElement("button");
+    boton.type = "button";
+    boton.className = "chip-campo";
+    boton.setAttribute("aria-label", `Quitar ${etiquetaCampoPorClave(clave)}`);
+    boton.innerHTML = `${escaparHTML(etiquetaCampoPorClave(clave))}<span aria-hidden="true">×</span>`;
+    boton.addEventListener("click", () => {
+      estado.camposSemanticosSeleccionados.delete(clave);
+      actualizarPresentacionCampos();
+      filtrarConceptos();
+    });
+    fragmento.appendChild(boton);
+  }
+
+  camposSeleccionados.appendChild(fragmento);
+}
+
+function actualizarPresentacionCampos() {
+  const cantidad = estado.camposSemanticosSeleccionados.size;
+  if (cantidad === 0) {
+    resumenCampos.textContent = "Seleccionar campo…";
+  } else if (cantidad === 1) {
+    const [clave] = estado.camposSemanticosSeleccionados;
+    resumenCampos.textContent = etiquetaCampoPorClave(clave);
+  } else {
+    resumenCampos.textContent = `${cantidad} campos seleccionados`;
+  }
+
+  renderizarOpcionesCampos();
+  renderizarCamposSeleccionados();
+}
+
+function tipoVariacionConcepto(concepto) {
+  const grupos = new Map();
+
+  for (const alternativa of concepto.alternativas ?? []) {
+    const sufijo = obtenerSufijoAlternativa(alternativa.id);
+    if (!sufijo.valido) continue;
+    if (!grupos.has(sufijo.numero)) grupos.set(sufijo.numero, new Set());
+    grupos.get(sufijo.numero).add(sufijo.letra);
+  }
+
+  if (grupos.size === 0) return "sin_clasificar";
+
+  const variacionLexica = grupos.size > 1;
+  const variacionFonologica = [...grupos.values()].some(
+    (letras) => letras.size > 1,
+  );
+
+  if (!variacionLexica && !variacionFonologica) return "sin_variacion";
+  if (variacionLexica && !variacionFonologica) return "solo_lexica";
+  if (!variacionLexica && variacionFonologica) return "solo_fonologica";
+  return "lexica_y_fonologica";
+}
+
+function conceptoTieneVideo(concepto) {
+  return (concepto.alternativas ?? []).some((alternativa) =>
+    tieneDato(alternativa.video_url),
+  );
+}
+
+function hayFiltrosActivos() {
+  return Boolean(
+    normalizarBusqueda(buscador.value)
+    || estado.camposSemanticosSeleccionados.size > 0
+    || estado.tipoVariacion !== "todas"
+    || estado.soloConVideo,
+  );
+}
+
+function actualizarBotonLimpiar() {
+  limpiarFiltros.disabled = !hayFiltrosActivos();
 }
 
 function renderizarListaConceptos() {
@@ -527,10 +703,48 @@ function activarPestana(nombre) {
 
 function filtrarConceptos() {
   const consulta = normalizarBusqueda(buscador.value);
+
   estado.conceptosFiltrados = estado.catalogo.conceptos.filter((concepto) => {
-    if (!consulta) return true;
-    return concepto._textoBusqueda.includes(consulta);
+    const cumpleTexto = !consulta || concepto._textoBusqueda.includes(consulta);
+
+    const camposConcepto = concepto._camposSemanticos ?? [];
+    const cumpleCampo = estado.camposSemanticosSeleccionados.size === 0
+      || camposConcepto.some((campo) =>
+        estado.camposSemanticosSeleccionados.has(campo),
+      );
+
+    const cumpleVariacion = estado.tipoVariacion === "todas"
+      || concepto._tipoVariacion === estado.tipoVariacion;
+
+    const cumpleVideo = !estado.soloConVideo || concepto._tieneVideo;
+
+    return cumpleTexto && cumpleCampo && cumpleVariacion && cumpleVideo;
   });
+
+  actualizarBotonLimpiar();
+
+  if (estado.conceptosFiltrados.length === 0) {
+    estado.conceptoSeleccionado = null;
+    estado.alternativaSeleccionada = null;
+    renderizarListaConceptos();
+    panelDetalle.innerHTML = `
+      <div class="estado-inicial">
+        <h2>No hay conceptos que cumplan los filtros</h2>
+        <p>Modifica la búsqueda o limpia los filtros para ver más resultados.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const seleccionVisible = estado.conceptosFiltrados.some(
+    (concepto) => concepto.id === estado.conceptoSeleccionado?.id,
+  );
+
+  if (!seleccionVisible) {
+    seleccionarConcepto(estado.conceptosFiltrados[0].id);
+    return;
+  }
+
   renderizarListaConceptos();
 }
 
@@ -551,7 +765,12 @@ async function iniciar() {
     estado.catalogo = await respuesta.json();
     for (const concepto of estado.catalogo.conceptos ?? []) {
       concepto._textoBusqueda = textoBusquedaConcepto(concepto);
+      concepto._camposSemanticos = camposSemanticosConcepto(concepto);
+      concepto._tipoVariacion = tipoVariacionConcepto(concepto);
+      concepto._tieneVideo = conceptoTieneVideo(concepto);
     }
+    prepararCamposSemanticos();
+    actualizarPresentacionCampos();
     estado.conceptosFiltrados = estado.catalogo.conceptos ?? [];
 
     const metadatos = estado.catalogo.metadatos ?? {};
@@ -582,4 +801,30 @@ async function iniciar() {
 }
 
 buscador.addEventListener("input", filtrarConceptos);
+
+buscadorCampos.addEventListener("input", renderizarOpcionesCampos);
+
+filtroVariacion.addEventListener("change", () => {
+  estado.tipoVariacion = filtroVariacion.value;
+  filtrarConceptos();
+});
+
+filtroVideo.addEventListener("change", () => {
+  estado.soloConVideo = filtroVideo.checked;
+  filtrarConceptos();
+});
+
+limpiarFiltros.addEventListener("click", () => {
+  buscador.value = "";
+  buscadorCampos.value = "";
+  estado.camposSemanticosSeleccionados.clear();
+  estado.tipoVariacion = "todas";
+  estado.soloConVideo = false;
+  filtroVariacion.value = "todas";
+  filtroVideo.checked = false;
+  selectorCampos.open = false;
+  actualizarPresentacionCampos();
+  filtrarConceptos();
+});
+
 iniciar();

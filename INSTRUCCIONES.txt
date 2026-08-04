@@ -1,0 +1,32 @@
+ACTUALIZACIÓN DE FILTROS PARA LeSiCo
+
+1. Haz una copia de seguridad de la carpeta web actual.
+2. Copia index.html, aplicacion.js y estilos.css dentro de la carpeta web del proyecto.
+3. Acepta reemplazar los tres archivos existentes.
+4. No reemplaces catalogo.json.
+5. Ejecuta iniciar_web.bat.
+6. Abre http://localhost:8000 y actualiza con Ctrl+F5.
+
+FUNCIONES AÑADIDAS
+- Selección de uno o varios campos semánticos.
+- Búsqueda dentro del selector de campos semánticos.
+- Coincidencia por cualquiera de los campos seleccionados.
+- Filtro por tipo de variación:
+  * Todas
+  * Sin variación registrada
+  * Solo variación léxica
+  * Solo variación fonológica
+  * Variación léxica y fonológica
+- Filtro «Solo conceptos con video».
+- Combinación simultánea de búsqueda y filtros.
+- Contador actualizado de resultados.
+- Botón «Limpiar filtros».
+
+REGLAS DE VARIACIÓN
+- Sin variación registrada: una sola alternativa, por ejemplo 1a.
+- Solo variación léxica: varios números, sin varias letras dentro del mismo número; por ejemplo 1a, 2a y 3a.
+- Solo variación fonológica: un solo número con varias letras; por ejemplo 1a, 1b y 1c.
+- Variación léxica y fonológica: varios números y al menos uno con varias letras; por ejemplo 1a, 2a, 2b y 3a.
+
+PUBLICACIÓN
+Cuando la prueba local funcione, sube al repositorio los tres archivos actualizados. catalogo.json solo debe volver a subirse cuando cambien los datos.

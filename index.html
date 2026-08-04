@@ -38,6 +38,53 @@
         placeholder="Concepto, alternativa, glosa o fuente"
         autocomplete="off"
       >
+
+      <section class="filtros" aria-label="Filtros de la base de datos">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro">Campo semántico</span>
+          <details id="selector-campos" class="selector-campos">
+            <summary id="resumen-campos">Seleccionar campo…</summary>
+            <div class="menu-campos">
+              <label for="buscador-campos" class="etiqueta-busqueda-campos">Buscar campo semántico</label>
+              <input
+                id="buscador-campos"
+                class="buscador-campos"
+                type="search"
+                placeholder="Escribir para filtrar"
+                autocomplete="off"
+              >
+              <div
+                id="lista-campos"
+                class="lista-campos"
+                role="group"
+                aria-label="Campos semánticos disponibles"
+              ></div>
+            </div>
+          </details>
+          <div id="campos-seleccionados" class="campos-seleccionados" aria-live="polite"></div>
+        </div>
+
+        <div class="grupo-filtro">
+          <label for="filtro-variacion" class="etiqueta-filtro">Tipo de variación</label>
+          <select id="filtro-variacion" class="selector-variacion">
+            <option value="todas">Todas</option>
+            <option value="sin_variacion">Sin variación registrada</option>
+            <option value="solo_lexica">Solo variación léxica</option>
+            <option value="solo_fonologica">Solo variación fonológica</option>
+            <option value="lexica_y_fonologica">Variación léxica y fonológica</option>
+          </select>
+        </div>
+
+        <label class="filtro-casilla" for="filtro-video">
+          <input id="filtro-video" type="checkbox">
+          <span>Solo conceptos con video</span>
+        </label>
+
+        <button id="limpiar-filtros" class="limpiar-filtros" type="button" disabled>
+          Limpiar filtros
+        </button>
+      </section>
+
       <p id="contador-resultados" class="contador"></p>
       <nav id="lista-conceptos" class="lista-conceptos"></nav>
     </aside>
