@@ -1,13 +1,13 @@
 {
   "metadatos": {
     "version_exportador": "sesion-5-excel-a-db",
-    "fecha_generacion": "2026-08-04T21:31:56",
+    "fecha_generacion": "2026-08-05T15:38:29",
     "archivo_origen": "LeSiCo.db",
     "conceptos_exportados": 358,
     "alternativas_exportadas": 723,
     "ocurrencias_exportadas": 1369,
     "videos_de_alternativas": 238,
-    "relaciones_fonologicas_adicionales": 17
+    "relaciones_fonologicas_adicionales": 16
   },
   "conceptos": [
     {
@@ -26747,8 +26747,8 @@
           "n_componentes": "-",
           "alt_componente": "-",
           "libre_perm": "-",
-          "varia_para": "OR_M1",
-          "varia_alt": "DESOCUPADO-ABURRIDO-1b",
+          "varia_para": "OR_bimanual",
+          "varia_alt": "DESOCUPADO-ABURRIDO-1a",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -26798,8 +26798,8 @@
           "n_componentes": "-",
           "alt_componente": "-",
           "libre_perm": "-",
-          "varia_para": "N_MANOS",
-          "varia_alt": "DESOCUPADO-ABURRIDO-1c",
+          "varia_para": "OR_M1",
+          "varia_alt": "DESOCUPADO-ABURRIDO-1b",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -26846,16 +26846,10 @@
       ],
       "relaciones_fonologicas_adicionales": [
         {
-          "id": "DESOCUPADO-ABURRIDO-1a_DESOCUPADO-ABURRIDO-1c",
-          "alternativa_a": "DESOCUPADO-ABURRIDO-1a",
-          "alternativa_b": "DESOCUPADO-ABURRIDO-1c",
-          "parametro": "OR_bimanual"
-        },
-        {
-          "id": "DESOCUPADO-ABURRIDO-1b_DESOCUPADO-ABURRIDO-1d",
-          "alternativa_a": "DESOCUPADO-ABURRIDO-1b",
+          "id": "DESOCUPADO-ABURRIDO-1c_DESOCUPADO-ABURRIDO-1d",
+          "alternativa_a": "DESOCUPADO-ABURRIDO-1c",
           "alternativa_b": "DESOCUPADO-ABURRIDO-1d",
-          "parametro": "OR_M1"
+          "parametro": "N_MANOS"
         }
       ]
     },
