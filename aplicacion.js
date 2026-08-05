@@ -191,6 +191,14 @@ function textoBusquedaConcepto(concepto) {
     }
   }
 
+  for (const relacion of concepto.relaciones_fonologicas_adicionales ?? []) {
+    partes.push(
+      relacion.alternativa_a,
+      relacion.alternativa_b,
+      relacion.parametro,
+    );
+  }
+
   return normalizarBusqueda(partes.filter(tieneDato).join(" "));
 }
 
@@ -567,28 +575,59 @@ function calcularDisposicionNodos(cantidad) {
   return { ancho, alto, anchoNodo, altoNodo, posiciones };
 }
 
-function relacionesValidasGrupo(alternativas) {
+function relacionesValidasGrupo(alternativas, relacionesAdicionales = []) {
   const porId = new Map(alternativas.map((alternativa) => [alternativa.id, alternativa]));
   const relaciones = [];
   const vistas = new Set();
+
+  const registrarRelacion = (origen, destino, codigo, origenDatos) => {
+    const idOrigen = String(origen ?? "").trim();
+    const idDestino = String(destino ?? "").trim();
+    const parametro = String(codigo ?? "").trim();
+
+    if (
+      !idOrigen
+      || !idDestino
+      || idOrigen === idDestino
+      || !parametro
+      || !porId.has(idOrigen)
+      || !porId.has(idDestino)
+    ) {
+      return;
+    }
+
+    const extremos = [idOrigen, idDestino].sort();
+    const clave = `${extremos.join("||")}||${parametro}`;
+    if (vistas.has(clave)) return;
+    vistas.add(clave);
+
+    relaciones.push({
+      origen: idOrigen,
+      destino: idDestino,
+      codigo: parametro,
+      origenDatos,
+    });
+  };
 
   for (const alternativa of alternativas) {
     if (!tieneDato(alternativa.varia_alt) || !tieneDato(alternativa.varia_para)) {
       continue;
     }
-    const referencia = porId.get(String(alternativa.varia_alt).trim());
-    if (!referencia) continue;
+    registrarRelacion(
+      alternativa.varia_alt,
+      alternativa.id,
+      alternativa.varia_para,
+      "analisis",
+    );
+  }
 
-    const extremos = [alternativa.id, referencia.id].sort();
-    const clave = `${extremos.join("||")}||${String(alternativa.varia_para).trim()}`;
-    if (vistas.has(clave)) continue;
-    vistas.add(clave);
-
-    relaciones.push({
-      origen: referencia.id,
-      destino: alternativa.id,
-      codigo: String(alternativa.varia_para).trim(),
-    });
+  for (const relacion of relacionesAdicionales) {
+    registrarRelacion(
+      relacion.alternativa_a,
+      relacion.alternativa_b,
+      relacion.parametro,
+      "relfono",
+    );
   }
 
   return relaciones;
@@ -605,7 +644,7 @@ function renderizarEtiquetaRelacion(x, y, codigo) {
   `;
 }
 
-function renderizarGrupoRed(numero, alternativas, indiceGrupo) {
+function renderizarGrupoRed(numero, alternativas, indiceGrupo, relacionesAdicionales) {
   const color = colorRed(indiceGrupo);
   const disposicion = calcularDisposicionNodos(alternativas.length);
   const posiciones = new Map();
@@ -613,8 +652,12 @@ function renderizarGrupoRed(numero, alternativas, indiceGrupo) {
     posiciones.set(alternativa.id, disposicion.posiciones[indice]);
   });
 
-  const relaciones = relacionesValidasGrupo(alternativas);
-  const referencias = new Set(relaciones.map((relacion) => relacion.origen));
+  const relaciones = relacionesValidasGrupo(alternativas, relacionesAdicionales);
+  const referencias = new Set(
+    relaciones
+      .filter((relacion) => relacion.origenDatos === "analisis")
+      .map((relacion) => relacion.origen),
+  );
 
   const lineas = relaciones.map((relacion, indice) => {
     const inicio = posiciones.get(relacion.origen);
@@ -689,7 +732,10 @@ function parametrosRedConcepto(concepto) {
   const parametros = new Set();
   const grupos = agruparAlternativas(concepto.alternativas ?? []);
   for (const [, alternativas] of grupos) {
-    for (const relacion of relacionesValidasGrupo(alternativas)) {
+    for (const relacion of relacionesValidasGrupo(
+      alternativas,
+      concepto.relaciones_fonologicas_adicionales ?? [],
+    )) {
       parametros.add(relacion.codigo);
     }
   }
@@ -701,9 +747,15 @@ function renderizarRedVariacion(concepto) {
   if (alternativas.length <= 1) return "";
 
   const grupos = agruparAlternativas(alternativas);
+  const relacionesAdicionales = concepto.relaciones_fonologicas_adicionales ?? [];
   const tarjetas = grupos
     .map(([numero, alternativasGrupo], indice) =>
-      renderizarGrupoRed(numero, alternativasGrupo, indice),
+      renderizarGrupoRed(
+        numero,
+        alternativasGrupo,
+        indice,
+        relacionesAdicionales,
+      ),
     )
     .join("");
   const parametros = parametrosRedConcepto(concepto);

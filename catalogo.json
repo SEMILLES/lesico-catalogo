@@ -1,12 +1,13 @@
 {
   "metadatos": {
     "version_exportador": "sesion-5-excel-a-db",
-    "fecha_generacion": "2026-08-04T16:28:22",
+    "fecha_generacion": "2026-08-04T21:31:56",
     "archivo_origen": "LeSiCo.db",
     "conceptos_exportados": 358,
     "alternativas_exportadas": 723,
     "ocurrencias_exportadas": 1369,
-    "videos_de_alternativas": 239
+    "videos_de_alternativas": 238,
+    "relaciones_fonologicas_adicionales": 17
   },
   "conceptos": [
     {
@@ -65,7 +66,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ABAJO",
@@ -151,7 +153,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ABANDONAR",
@@ -260,7 +263,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ABOGADO",
@@ -453,7 +457,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ABUSO-SEXUAL",
@@ -664,7 +669,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACEITE",
@@ -778,7 +784,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACNÉ",
@@ -887,7 +894,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACOMPAÑAR",
@@ -1057,7 +1065,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACONSEJAR",
@@ -1171,7 +1180,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACOSTUMBRAR",
@@ -1229,7 +1239,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACTIVIDAD",
@@ -1338,7 +1349,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACTUAR",
@@ -1475,7 +1487,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACUARIO",
@@ -1533,7 +1546,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ACUEDUCTO",
@@ -1591,7 +1605,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ADELANTE",
@@ -1700,7 +1715,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AGUA",
@@ -1972,7 +1988,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AGUACATE",
@@ -2109,7 +2126,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AJÍ",
@@ -2376,7 +2394,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AJO",
@@ -2541,7 +2560,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ALMUERZO",
@@ -2808,7 +2828,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AMABLE",
@@ -3113,7 +3134,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AMAR",
@@ -3227,7 +3249,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AMARILLO",
@@ -3675,6 +3698,26 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "AMARILLO-1b_AMARILLO-1c",
+          "alternativa_a": "AMARILLO-1b",
+          "alternativa_b": "AMARILLO-1c",
+          "parametro": "MOV_M1"
+        },
+        {
+          "id": "AMARILLO-1b_AMARILLO-1d",
+          "alternativa_a": "AMARILLO-1b",
+          "alternativa_b": "AMARILLO-1d",
+          "parametro": "MOV_M1"
+        },
+        {
+          "id": "AMARILLO-1c_AMARILLO-1d",
+          "alternativa_a": "AMARILLO-1c",
+          "alternativa_b": "AMARILLO-1d",
+          "parametro": "MOV_M1"
+        }
       ]
     },
     {
@@ -3835,7 +3878,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AMÉRICA",
@@ -3977,7 +4021,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "APOYAR",
@@ -4198,7 +4243,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "APRENDER",
@@ -4452,7 +4498,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "APROVECHAR",
@@ -4594,7 +4641,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AQUÍ",
@@ -4680,7 +4728,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARAÑA",
@@ -4924,7 +4973,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARCOIRIS",
@@ -5061,7 +5111,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AREPA",
@@ -5249,7 +5300,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARMARIO",
@@ -5307,7 +5359,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AROMÁTICA/TÉ",
@@ -5365,7 +5418,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARQUITECTURA",
@@ -5502,7 +5556,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARREGLAR",
@@ -5718,7 +5773,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARRIBA",
@@ -5804,7 +5860,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARROZ",
@@ -5974,7 +6031,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARTE",
@@ -6241,7 +6299,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ARVEJA",
@@ -6429,7 +6488,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASCENSOR",
@@ -6487,7 +6547,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASIA",
@@ -6545,7 +6606,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASISTIR",
@@ -6738,7 +6800,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASOCIACIÓN",
@@ -6796,7 +6859,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASORVAL",
@@ -6905,7 +6969,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASPIRADORA",
@@ -7116,7 +7181,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ASUSTAR",
@@ -7174,7 +7240,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ATENCIÓN",
@@ -7316,7 +7383,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ATLETISMO",
@@ -7430,7 +7498,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AUDÍFONO",
@@ -7488,7 +7557,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AUDIOMETRÍA",
@@ -7546,7 +7616,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AUSTRALIA",
@@ -7632,7 +7703,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AUTOPISTA",
@@ -7741,7 +7813,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AUTORITARIO",
@@ -7827,7 +7900,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AVENIDA",
@@ -7936,7 +8010,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AVIÓN",
@@ -8157,7 +8232,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AYER",
@@ -8401,7 +8477,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AYUDAR",
@@ -8655,7 +8732,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AZÚCAR",
@@ -8792,7 +8870,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "AZUL",
@@ -9069,7 +9148,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BACHILLERATO",
@@ -9285,7 +9365,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BAILAR",
@@ -9539,7 +9620,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BALDE",
@@ -9676,7 +9758,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BALLENA",
@@ -9892,7 +9975,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BALÓN",
@@ -10118,7 +10202,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BALONCESTO",
@@ -10306,7 +10391,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BANANO",
@@ -10550,7 +10636,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BAÑAR",
@@ -10873,7 +10960,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BANCO",
@@ -10959,7 +11047,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BANDEJA",
@@ -11045,7 +11134,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BANDERA",
@@ -11103,7 +11193,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BAÑO",
@@ -11454,6 +11545,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "BAÑO-1b_BAÑO-1c",
+          "alternativa_a": "BAÑO-1b",
+          "alternativa_b": "BAÑO-1c",
+          "parametro": "MOV_M1"
+        }
       ]
     },
     {
@@ -11642,7 +11741,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BARCO",
@@ -11886,7 +11986,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BARRANQUILLA",
@@ -12000,7 +12101,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BARRER",
@@ -12193,7 +12295,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BARRIO",
@@ -12279,7 +12382,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BASURA",
@@ -12365,7 +12469,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BATIDORA",
@@ -12502,7 +12607,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BAUTIZAR",
@@ -12667,7 +12773,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BEBÉ",
@@ -12837,7 +12944,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BESAR",
@@ -12946,7 +13054,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BIBLIA",
@@ -13055,7 +13164,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BIBLIOTECA",
@@ -13276,7 +13386,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BICICLETA",
@@ -13502,7 +13613,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BIEN",
@@ -13672,7 +13784,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BLANCO",
@@ -13898,7 +14011,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BUS-EJECUTIVO",
@@ -13956,7 +14070,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BUSCAR",
@@ -14182,7 +14297,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "BUSETA",
@@ -14268,7 +14384,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CABALLO",
@@ -14511,7 +14628,8 @@
           "video_url": "",
           "ocurrencias": []
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CABELLO",
@@ -14671,7 +14789,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CABELLO-LARGO",
@@ -14729,7 +14848,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CABELLO-MONO",
@@ -14787,7 +14907,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CABEZA",
@@ -14947,7 +15068,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CACHUCHA",
@@ -15005,7 +15127,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CADA-UNO",
@@ -15063,7 +15186,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CADENA-COLLAR",
@@ -15121,7 +15245,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAER",
@@ -15365,7 +15490,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAFÉ",
@@ -15535,7 +15661,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAFETERA",
@@ -15644,7 +15771,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAJA",
@@ -15758,7 +15886,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAJERO",
@@ -15816,7 +15945,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CALIENTE",
@@ -16106,6 +16236,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "CALIENTE-1a_CALIENTE-1c",
+          "alternativa_a": "CALIENTE-1a",
+          "alternativa_b": "CALIENTE-1c",
+          "parametro": "MOV_M1"
+        }
       ]
     },
     {
@@ -16294,7 +16432,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CAMPEÓN",
@@ -16431,7 +16570,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CANCHA-FÚTBOL",
@@ -16540,7 +16680,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CENA",
@@ -16835,7 +16976,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CENTRO-COMERCIAL",
@@ -17153,7 +17295,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CENTRO-DE-LA-CIUDAD",
@@ -17211,7 +17354,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CEPILLARSE-LOS-DIENTES/CEPILLO-DENTAL",
@@ -17376,7 +17520,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CERCA",
@@ -17592,7 +17737,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CERCA-TEMPORAL",
@@ -17650,7 +17796,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CERCA-VALLA",
@@ -17759,7 +17906,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CERDO",
@@ -18082,6 +18230,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "CERDO-1a_CERDO-1c",
+          "alternativa_a": "CERDO-1a",
+          "alternativa_b": "CERDO-1c",
+          "parametro": "CM_M1"
+        }
       ]
     },
     {
@@ -18242,7 +18398,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CERVEZA",
@@ -18463,7 +18620,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHAMPÚ",
@@ -18725,7 +18883,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHAQUETA",
@@ -18862,7 +19021,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHEF",
@@ -19022,7 +19182,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHEQUE",
@@ -19131,7 +19292,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHICHA",
@@ -19240,7 +19402,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHISME",
@@ -19349,7 +19512,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHISTE",
@@ -19514,7 +19678,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHOCAR",
@@ -19623,7 +19788,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CHOCOLATE",
@@ -19788,7 +19954,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COLOMBIA",
@@ -20065,7 +20232,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COLOR",
@@ -20314,7 +20482,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COLOR-CLARO",
@@ -20372,7 +20541,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COLOR-NEGRO",
@@ -20718,6 +20888,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "COLOR-NEGRO-1b_COLOR-NEGRO-1c",
+          "alternativa_a": "COLOR-NEGRO-1b",
+          "alternativa_b": "COLOR-NEGRO-1c",
+          "parametro": "MOV_M1"
+        }
       ]
     },
     {
@@ -20776,7 +20954,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMEDOR-LUGAR",
@@ -20913,7 +21092,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMEDOR-MESA",
@@ -21022,7 +21202,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMER",
@@ -21439,7 +21620,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMPAÑERO",
@@ -21548,7 +21730,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMPLETO",
@@ -21662,7 +21845,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMPRAR",
@@ -21957,7 +22141,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMPUTADOR",
@@ -22318,7 +22503,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMULGAR",
@@ -22376,7 +22562,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COMUNICAR",
@@ -22630,7 +22817,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CON-MUCHO-GUSTO",
@@ -22744,7 +22932,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONCIERTO",
@@ -22802,7 +22991,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CÓNDOR",
@@ -22888,7 +23078,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONDUCTOR",
@@ -22946,7 +23137,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONEJO",
@@ -23190,7 +23382,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONFIANZA",
@@ -23304,7 +23497,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONFUNDIDO",
@@ -23362,7 +23556,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONGRESO",
@@ -23499,7 +23694,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONSIGNAR",
@@ -23659,7 +23855,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONTADOR",
@@ -23745,7 +23942,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONTENTO",
@@ -23943,7 +24141,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CONTINUAR",
@@ -24187,7 +24386,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COOPERATIVA",
@@ -24324,7 +24524,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COPA-AGUARDIENTE",
@@ -24433,7 +24634,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COPA-VINO",
@@ -24498,7 +24700,7 @@
           "alt_componente": "-",
           "libre_perm": "-",
           "varia_para": "N_MANOS",
-          "varia_alt": "COPA-VINO-1b",
+          "varia_alt": "COPA-VINO-1c",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -24593,7 +24795,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COPIAR",
@@ -24651,7 +24854,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CORRECTO",
@@ -24737,7 +24941,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CORTAR",
@@ -24795,7 +25000,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CORTO",
@@ -24955,7 +25161,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COSA",
@@ -25013,7 +25220,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "COSEDORA",
@@ -25099,7 +25307,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CRECER",
@@ -25157,7 +25366,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CREER",
@@ -25266,7 +25476,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CREMA-DE-DIENTES",
@@ -25324,7 +25535,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CREMA-DE-MANOS",
@@ -25382,7 +25594,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CRITICAR",
@@ -25519,7 +25732,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CUADERNO",
@@ -25717,7 +25931,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CUADRO",
@@ -25831,7 +26046,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CUATRO",
@@ -26108,7 +26324,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CUCHILLO-COCINA",
@@ -26217,7 +26434,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "CUCHILLO-MESA",
@@ -26303,7 +26521,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "DESCUBRIR",
@@ -26412,7 +26631,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "DESOCUPADO-ABURRIDO",
@@ -26579,7 +26799,7 @@
           "alt_componente": "-",
           "libre_perm": "-",
           "varia_para": "N_MANOS",
-          "varia_alt": "DESOCUPADO-ABURRIDO-1d",
+          "varia_alt": "DESOCUPADO-ABURRIDO-1c",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -26622,6 +26842,20 @@
               "fuente_sistematizada": "NO"
             }
           ]
+        }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "DESOCUPADO-ABURRIDO-1a_DESOCUPADO-ABURRIDO-1c",
+          "alternativa_a": "DESOCUPADO-ABURRIDO-1a",
+          "alternativa_b": "DESOCUPADO-ABURRIDO-1c",
+          "parametro": "OR_bimanual"
+        },
+        {
+          "id": "DESOCUPADO-ABURRIDO-1b_DESOCUPADO-ABURRIDO-1d",
+          "alternativa_a": "DESOCUPADO-ABURRIDO-1b",
+          "alternativa_b": "DESOCUPADO-ABURRIDO-1d",
+          "parametro": "OR_M1"
         }
       ]
     },
@@ -26811,7 +27045,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "DINERO",
@@ -26998,6 +27233,14 @@
               "fuente_sistematizada": "NO"
             }
           ]
+        }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "DINERO-1b_DINERO-1c",
+          "alternativa_a": "DINERO-1b",
+          "alternativa_b": "DINERO-1c",
+          "parametro": "CM_M1"
         }
       ]
     },
@@ -27187,7 +27430,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "DURAZNO",
@@ -27403,7 +27647,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ECUADOR",
@@ -27568,7 +27813,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EMBARAZO",
@@ -27710,7 +27956,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EMBETUNAR-ZAPATO",
@@ -27768,7 +28015,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EMOCIONADO",
@@ -28081,6 +28329,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "EMOCIONADO-1c_EMOCIONADO-1d",
+          "alternativa_a": "EMOCIONADO-1c",
+          "alternativa_b": "EMOCIONADO-1d",
+          "parametro": "MOV_bimanual"
+        }
       ]
     },
     {
@@ -28274,7 +28530,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENEMIGO",
@@ -28411,7 +28668,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENFRENTE",
@@ -28469,7 +28727,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENFURECERSE",
@@ -28680,7 +28939,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENGAÑAR",
@@ -28840,7 +29100,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENSALADA",
@@ -29010,7 +29271,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENSEÑAR",
@@ -29315,7 +29577,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ENVIDIOSO",
@@ -29429,7 +29692,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EQUIVOCARSE",
@@ -29487,7 +29751,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ESCOGER",
@@ -29703,7 +29968,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ESFERO",
@@ -29868,7 +30134,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ESPAÑOL-LENGUA",
@@ -30033,7 +30300,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ESTUDIANTE",
@@ -30305,7 +30573,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ESTUDIAR",
@@ -30554,7 +30823,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EUROPA",
@@ -30612,7 +30882,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EXÁMEN",
@@ -30772,7 +31043,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "EXPLICAR",
@@ -30914,7 +31186,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FÁCIL",
@@ -31158,7 +31431,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FALTAR",
@@ -31216,7 +31490,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FAMILIA",
@@ -31534,6 +31809,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "FAMILIA-1b_FAMILIA-1d",
+          "alternativa_a": "FAMILIA-1b",
+          "alternativa_b": "FAMILIA-1d",
+          "parametro": "OR_bimanual"
+        }
       ]
     },
     {
@@ -31755,7 +32038,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FIEBRE",
@@ -31920,7 +32204,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FILMADORA",
@@ -32113,7 +32398,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FILOSOFÍA",
@@ -32199,7 +32485,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FINO",
@@ -32387,7 +32674,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FIRMAR",
@@ -32496,7 +32784,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FISCAL",
@@ -32582,7 +32871,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FÍSICA",
@@ -32826,7 +33116,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLACO",
@@ -33019,7 +33310,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLATULENCIA",
@@ -33077,7 +33369,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLAUTA",
@@ -33135,7 +33428,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLOR",
@@ -33249,7 +33543,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLORERO",
@@ -33307,7 +33602,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FLOTA",
@@ -33495,6 +33791,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "FLOTA-1b_FLOTA-1c",
+          "alternativa_a": "FLOTA-1b",
+          "alternativa_b": "FLOTA-1c",
+          "parametro": "CM_bimanual"
+        }
       ]
     },
     {
@@ -33632,7 +33936,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FÓSFORO",
@@ -33741,7 +34046,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FRESA",
@@ -33906,7 +34212,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FRÍJOL",
@@ -34020,7 +34327,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FRÍO",
@@ -34292,7 +34600,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "FRUTA",
@@ -34401,7 +34710,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GANAR",
@@ -34561,7 +34871,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GARAJE",
@@ -34675,7 +34986,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GAS",
@@ -34812,7 +35124,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GASEOSA",
@@ -35005,7 +35318,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GASTAR-DINERO",
@@ -35063,7 +35377,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GATO-ANIMAL",
@@ -35363,7 +35678,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GATO-HIDRÁULICO",
@@ -35472,7 +35788,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GELATINA",
@@ -35614,7 +35931,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GENEROSO",
@@ -35779,7 +36097,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GEOGRAFÍA",
@@ -35888,7 +36207,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GRADO-GEOMETRÍA",
@@ -35946,7 +36266,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GRANDE",
@@ -36422,7 +36743,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GRATIS",
@@ -36508,7 +36830,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GRIS",
@@ -36882,7 +37205,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GUARDAR",
@@ -36940,7 +37264,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "GUITARRA",
@@ -36998,7 +37323,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "HABLAR-MAL",
@@ -37056,7 +37382,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JOVEN",
@@ -37277,7 +37604,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUGAR",
@@ -37615,7 +37943,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUGO",
@@ -37887,7 +38216,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUICIOSO",
@@ -38154,6 +38484,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "JUICIOSO-1b_JUICIOSO-1d",
+          "alternativa_a": "JUICIOSO-1b",
+          "alternativa_b": "JUICIOSO-1d",
+          "parametro": "CM_bimanual"
+        }
       ]
     },
     {
@@ -38403,7 +38741,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUNIO",
@@ -38652,7 +38991,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUNTA",
@@ -38761,7 +39101,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUSTICIA",
@@ -38819,7 +39160,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "JUSTIFICAR",
@@ -38877,7 +39219,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "KÍNDER",
@@ -38935,7 +39278,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LABIOS-PEQUEÑOS",
@@ -38993,7 +39337,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LADRILLO",
@@ -39102,7 +39447,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LADRÓN",
@@ -39239,7 +39585,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LÁMPARA",
@@ -39427,7 +39774,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LANA",
@@ -39485,7 +39833,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LÁPIZ",
@@ -39701,7 +40050,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LARGO",
@@ -39810,7 +40160,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LAVADORA",
@@ -40031,7 +40382,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LAVAR",
@@ -40201,7 +40553,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LECHE",
@@ -40440,7 +40793,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LECHUGA",
@@ -40684,7 +41038,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LEJOS",
@@ -40849,7 +41204,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LENGUA-DE-SEÑAS",
@@ -40907,7 +41263,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LENGUA-SISTEMA",
@@ -41100,7 +41457,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LLORAR",
@@ -41372,7 +41730,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LLUVIA",
@@ -41509,7 +41868,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LOTERO",
@@ -41567,7 +41927,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LUNA",
@@ -41727,7 +42088,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LUNA-DE-MIEL",
@@ -41897,7 +42259,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "LUNES",
@@ -42253,7 +42616,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MANIPULAR",
@@ -42311,7 +42675,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MAPA-COLOMBIA",
@@ -42420,7 +42785,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MENSAJERO",
@@ -42478,7 +42844,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MENTIRA",
@@ -42620,7 +42987,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MORADO",
@@ -43198,7 +43566,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "MÚSICA",
@@ -43284,7 +43653,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NADAR",
@@ -43528,7 +43898,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NARANJA-COLOR",
@@ -43874,7 +44245,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NARANJA-FRUTA",
@@ -44090,7 +44462,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NARCOTRÁFICO",
@@ -44176,7 +44549,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NARIZ",
@@ -44336,7 +44710,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NAVIDAD",
@@ -44445,7 +44820,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "NO-1P",
@@ -44839,7 +45215,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "OFICINA",
@@ -44976,7 +45353,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "OÍR",
@@ -45136,7 +45514,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "OJOS",
@@ -45250,7 +45629,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "OLER",
@@ -45308,7 +45688,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "OLVIDAR",
@@ -45562,7 +45943,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ONCE",
@@ -45806,7 +46188,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PASTA",
@@ -45966,7 +46349,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PATINAJE",
@@ -46103,7 +46487,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PATIO-DE-JUEGOS",
@@ -46161,7 +46546,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PATIO-LAVADERO",
@@ -46226,7 +46612,7 @@
           "alt_componente": "LAVAR-",
           "libre_perm": "NO",
           "varia_para": "CM_M2",
-          "varia_alt": "PATIO-LAVADERO-1a",
+          "varia_alt": "PATIO-LAVADERO-1c",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -46327,8 +46713,8 @@
           "n_componentes": "2",
           "alt_componente": "LAVAR-",
           "libre_perm": "NO",
-          "varia_para": "CM_bimanual",
-          "varia_alt": "PATIO-LAVADERO-1b",
+          "varia_para": "CM_M2",
+          "varia_alt": "PATIO-LAVADERO-1a",
           "freq_imp": "No Reporta",
           "freq_dtbs": "-",
           "geo_imp": "No Reporta",
@@ -46371,6 +46757,14 @@
               "fuente_sistematizada": "NO"
             }
           ]
+        }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "PATIO-LAVADERO-1b_PATIO-LAVADERO-1d",
+          "alternativa_a": "PATIO-LAVADERO-1b",
+          "alternativa_b": "PATIO-LAVADERO-1d",
+          "parametro": "CM_bimanual"
         }
       ]
     },
@@ -46542,7 +46936,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PAZ",
@@ -46628,7 +47023,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PECADO",
@@ -46714,7 +47110,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PEDIATRA",
@@ -46772,7 +47169,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PEDIR",
@@ -46881,7 +47279,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PEDIR-PERDÓN",
@@ -46939,7 +47338,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PEGANTE",
@@ -47104,7 +47504,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PEINILLA",
@@ -47162,7 +47563,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PELEAR",
@@ -47378,7 +47780,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PELÍCULA",
@@ -47436,7 +47839,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PIZZA",
@@ -47958,7 +48362,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PLANCHA-VAPOR",
@@ -48016,7 +48421,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PLANCHA/PLANCHAR",
@@ -48255,6 +48661,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "PLANCHA/PLANCHAR-1c_PLANCHA/PLANCHAR-1d",
+          "alternativa_a": "PLANCHA/PLANCHAR-1c",
+          "alternativa_b": "PLANCHA/PLANCHAR-1d",
+          "parametro": "CM_M1"
+        }
       ]
     },
     {
@@ -48392,7 +48806,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "POLLO-BROASTER",
@@ -48450,7 +48865,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "POLLO-COMIDA",
@@ -48666,7 +49082,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PORTERÍA-FÚTBOL",
@@ -48775,7 +49192,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PORTERÍA-SEGURIDAD",
@@ -48935,7 +49353,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PORTERO-SEGURIDAD",
@@ -49044,7 +49463,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PRACTICAR",
@@ -49242,7 +49662,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PREGUNTAR",
@@ -49490,59 +49911,8 @@
           "video_url": "https://youtu.be/H5dwl8N69Yo",
           "ocurrencias": [
             {
-              "id": "9567-PREGUNTAR",
-              "id_alternativa": "PREGUNTAR-1b",
-              "id_concepto": "PREGUNTAR",
-              "id_fuente": "30SJNC",
-              "glosa_original": "PREGUNTAR",
-              "fuente_1": "DTBS_30SJNC",
-              "fuente_2": "Vocabulario de uso cotidiano en L.S.C.",
-              "ejemplos": "NO",
-              "apuntes_gramaticales": "-",
-              "genero": "SIN-MARCA",
-              "plural": "SIN-MARCA",
-              "neg": "SIN-NEG",
-              "forma_conjugada": "SÍ",
-              "agentivo": "-",
-              "done": "SÍ",
-              "pending": "SÍ",
-              "notdone": "NO",
-              "fuente_repositorio": "Sordos Juan N. Cadavid",
-              "fuente_tipo": "",
-              "fuente_fecha": "2017",
-              "fuente_region": "Itagüí",
-              "fuente_caracter": "Terminología en su mayoría de vocabulario cotidiano. También hay académico: ciencias, español, sociales, física y química,",
-              "fuente_n_entradas": "704",
-              "fuente_formato": "vídeo",
-              "fuente_formato_detalle": "vídeo : señas de un área temática por vídeo",
-              "fuente_sistematizada": "SÍ"
-            }
-          ]
-        },
-        {
-          "id": "PREGUNTAR-1c",
-          "id_concepto": "PREGUNTAR",
-          "n_componentes": "-",
-          "alt_componente": "-",
-          "libre_perm": "-",
-          "varia_para": "-",
-          "varia_alt": "-",
-          "freq_imp": "Alta",
-          "freq_dtbs": "-",
-          "geo_imp": "Nacional",
-          "geo_dtbs": "No Reporta",
-          "eta": "No Reporta",
-          "socioec": "No reporta",
-          "etimologia": "---",
-          "inconicidad": "---",
-          "registro": "---",
-          "matiz": "Podría referirse a la acción-verbo.",
-          "espanol": "---",
-          "video_url": "https://youtu.be/LU7szz0tZiY",
-          "ocurrencias": [
-            {
               "id": "10973-PREGUNTAR",
-              "id_alternativa": "PREGUNTAR-1c",
+              "id_alternativa": "PREGUNTAR-1b",
               "id_concepto": "PREGUNTAR",
               "id_fuente": "36CVE_INSOR_UN_24",
               "glosa_original": "PREGUNTAR",
@@ -49624,8 +49994,8 @@
         {
           "id": "PREGUNTAR-3a",
           "id_concepto": "PREGUNTAR",
-          "n_componentes": "-",
-          "alt_componente": "-",
+          "n_componentes": "2",
+          "alt_componente": "PREGUNTAR-1b",
           "libre_perm": "-",
           "varia_para": "-",
           "varia_alt": "-",
@@ -49643,8 +50013,59 @@
           "video_url": "",
           "ocurrencias": [
             {
-              "id": "10866-PREGUNTAR",
+              "id": "9567-PREGUNTAR",
               "id_alternativa": "PREGUNTAR-3a",
+              "id_concepto": "PREGUNTAR",
+              "id_fuente": "30SJNC",
+              "glosa_original": "PREGUNTAR",
+              "fuente_1": "DTBS_30SJNC",
+              "fuente_2": "Vocabulario de uso cotidiano en L.S.C.",
+              "ejemplos": "NO",
+              "apuntes_gramaticales": "-",
+              "genero": "SIN-MARCA",
+              "plural": "SIN-MARCA",
+              "neg": "SIN-NEG",
+              "forma_conjugada": "SÍ",
+              "agentivo": "-",
+              "done": "SÍ",
+              "pending": "SÍ",
+              "notdone": "NO",
+              "fuente_repositorio": "Sordos Juan N. Cadavid",
+              "fuente_tipo": "",
+              "fuente_fecha": "2017",
+              "fuente_region": "Itagüí",
+              "fuente_caracter": "Terminología en su mayoría de vocabulario cotidiano. También hay académico: ciencias, español, sociales, física y química,",
+              "fuente_n_entradas": "704",
+              "fuente_formato": "vídeo",
+              "fuente_formato_detalle": "vídeo : señas de un área temática por vídeo",
+              "fuente_sistematizada": "SÍ"
+            }
+          ]
+        },
+        {
+          "id": "PREGUNTAR-4a",
+          "id_concepto": "PREGUNTAR",
+          "n_componentes": "-",
+          "alt_componente": "-",
+          "libre_perm": "-",
+          "varia_para": "-",
+          "varia_alt": "-",
+          "freq_imp": "-",
+          "freq_dtbs": "-",
+          "geo_imp": "-",
+          "geo_dtbs": "-",
+          "eta": "-",
+          "socioec": "-",
+          "etimologia": "-",
+          "inconicidad": "-",
+          "registro": "-",
+          "matiz": "-",
+          "espanol": "-",
+          "video_url": "",
+          "ocurrencias": [
+            {
+              "id": "10866-PREGUNTAR",
+              "id_alternativa": "PREGUNTAR-4a",
               "id_concepto": "PREGUNTAR",
               "id_fuente": "36CVE_INSOR_UN_24",
               "glosa_original": "PREGUNTAR",
@@ -49672,7 +50093,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PRENDER-LA-LUZ",
@@ -49730,7 +50152,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PROHIBIDO",
@@ -49997,7 +50420,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PROHIBIDO-NORMATIVO",
@@ -50083,7 +50507,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PRÓXIMO",
@@ -50332,7 +50757,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PUENTE-FESTIVO",
@@ -50390,7 +50816,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PUERTA",
@@ -50476,7 +50903,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "PUPITRE",
@@ -50715,7 +51143,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "QUERER-DESEO",
@@ -50913,7 +51342,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "QUINCE",
@@ -51208,7 +51638,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "RÁPIDO",
@@ -51373,7 +51804,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "RÁPIDO-TRABAJO",
@@ -51431,7 +51863,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "RISA",
@@ -51642,7 +52075,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "RISA-COLECTIVA",
@@ -51700,7 +52134,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ROJO",
@@ -52000,7 +52435,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ROSADO",
@@ -52160,7 +52596,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TAMAL",
@@ -52348,7 +52785,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TAMBIÉN",
@@ -52490,7 +52928,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TAMPOCO",
@@ -52604,7 +53043,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TARDE",
@@ -52774,7 +53214,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TAREA",
@@ -52985,7 +53426,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "TAXI",
@@ -53127,7 +53569,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VELOZ",
@@ -53315,7 +53758,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VELOZ-MOTORIZADO",
@@ -53401,7 +53845,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VENDER",
@@ -53561,7 +54006,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VERDE",
@@ -53991,6 +54437,14 @@
             }
           ]
         }
+      ],
+      "relaciones_fonologicas_adicionales": [
+        {
+          "id": "VERDE-1c_VERDE-1d",
+          "alternativa_a": "VERDE-1c",
+          "alternativa_b": "VERDE-1d",
+          "parametro": "OR_M1"
+        }
       ]
     },
     {
@@ -54212,7 +54666,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VIVIR",
@@ -54433,7 +54888,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VOCABULARIO",
@@ -54542,7 +54998,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "VOLEIBOL",
@@ -54679,7 +55136,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "YA",
@@ -54900,7 +55358,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ZAPATERO",
@@ -55014,7 +55473,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "ZAPATOS",
@@ -55179,7 +55639,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CÓMO-ESTÁS?",
@@ -55428,7 +55889,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CÓMO-SABE?",
@@ -55486,7 +55948,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CÓMO?",
@@ -55730,7 +56193,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CUÁL-DE-LOS-DOS?",
@@ -55839,7 +56303,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CUÁL?",
@@ -56060,7 +56525,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CUÁNDO?",
@@ -56370,7 +56836,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿CUÁNTO?",
@@ -56563,7 +57030,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿PARA-QUÉ?",
@@ -56705,7 +57173,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿POR-DÓNDE?",
@@ -56763,7 +57232,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿POR-QUÉ?",
@@ -56961,7 +57431,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿QUÉ-ES-ESO?",
@@ -57019,7 +57490,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿QUÉ-LE-PASA?",
@@ -57077,7 +57549,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿QUÉ?",
@@ -57247,7 +57720,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     },
     {
       "id": "¿QUIÉN?",
@@ -57473,7 +57947,8 @@
             }
           ]
         }
-      ]
+      ],
+      "relaciones_fonologicas_adicionales": []
     }
   ]
 }
